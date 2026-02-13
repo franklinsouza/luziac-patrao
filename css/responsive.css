@@ -804,7 +804,6 @@
     margin-left: 0;
   }
   .s-about-img {
-    margin-top: 30px;
     margin-bottom: 20px;
   }
   .s-about-img img {
@@ -990,9 +989,6 @@
   .slider-btn.mt-55 {
     margin-top: 25px;
   }
-  .btn.ss-btn {
-    display: none;
-  }
   .faq-img img {
     width: 100%;
   }
@@ -1036,9 +1032,6 @@
   }
   .s-cta-p.pb-120 {
     padding-bottom: 120px;
-  }
-  .contact-form {
-    margin-top: 50px;
   }
 }
 
