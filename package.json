@@ -1,0 +1,21 @@
+{
+  "name": "patrao",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "sync": "node sync.js",
+    "buildtest": "npm run sync && astro build"
+  },
+  "dependencies": {
+    "@astrojs/alpinejs": "^0.4.9",
+    "@phosphor-icons/web": "^2.1.2",
+    "@types/alpinejs": "^3.13.11",
+    "astro": "^5.17.1",
+    "fast-xml-parser": "^5.3.6",
+    "minisearch": "^7.2.0"
+  }
+}

@@ -1,0 +1,215 @@
+---
+import imoveis from '../../../public/data/single.json';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  return imoveis.map((imovel) => {
+    return {
+      params: { slug: imovel.slug },
+      props: { imovel },
+    };
+  });
+}
+
+const { slug } = Astro.params;
+const { imovel } = Astro.props;
+---
+
+<Layout>
+  <!-- main-area -->
+  <main>
+    <!-- choose-area -->
+    <section class="p-relative pt-120 pb-120 choose-area">
+      <div
+        class="chosse-img wow fadeInRight animated"
+        data-animation="fadeInRight animated"
+        data-delay=".2s"
+      ></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6">
+            <div class="p-relative mb-30 s-about-img-single photo-gallery">
+              {imovel.fotos.map((foto) => {
+                return  <a class="slide popup-image" href={foto.URLArquivo}>
+                          <img src={foto.URLArquivo} class=""/>
+                        </a>
+              })}
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="choose-wrap">
+              <div
+                class="left-align w-title section-title wow fadeInDown animated"
+                data-animation="fadeInDown animated"
+                data-delay=".2s"
+              >
+                <h2 class="choose-title">{imovel.tituloImovel}</h2>
+                <h3 class="choose-subtitle">{imovel.cidade}</h3>
+              </div>
+              <br />
+              <div
+                class="choose-content wow fadeInUp animated"
+                data-animation="fadeInDown animated"
+                data-delay=".2s"
+              >
+                <p>
+                  {imovel.observacao}
+                </p>
+
+                <div class="mt-20 mb-20 choose-list">
+                  <ul>
+                    <li>
+                      <i class="ph ph-arrows-out"></i>
+                      <span>
+                        <strong>Área útil</strong> <br />
+                        {imovel.areaUtil} m²
+                      </span>
+                    </li>
+                    <li>
+                      <i class="ph ph-arrows-out"></i>
+                      <span>
+                        <strong>Área total</strong><br />
+                        {imovel.areaTotal} m²
+                      </span>
+                    </li>
+                    <li>
+                      <i class="ph ph-bed"></i>
+                      <span>
+                        <strong>Quartos</strong><br />
+                        {imovel.qtdDormitorios}
+                      </span>
+                    </li>
+                    <li>
+                      <i class="ph ph-bathtub"></i>
+                      <span>
+                        <strong>Suítes</strong><br />
+                        {imovel.qtdSuites}
+                      </span>
+                    </li>
+                    <li>
+                      <i class="ph ph-shower"></i>
+                      <span>
+                        <strong>Banheiros</strong><br />
+                        {imovel.qtdBanheiros}
+                      </span>
+                    </li>
+                    <li>
+                      <i class="ph ph-car"></i>
+                      <span>
+                        <strong>Vagas</strong><br />
+                        {imovel.qtdVagas}
+                      </span>
+                    </li>
+                    <li>
+                      <i class="ph ph-paw-print"></i>
+                      <span>
+                        <strong>Aceita pet</strong><br />
+                        {imovel.aceitaPet}
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div style="display: none;">
+                COnd. R$ {imovel.precoCondominio} <br />
+                IPTU R$ {imovel.precoIptu} <br />
+                </div>
+                <ul class="choose-prices">
+                  <li>
+                    <h3 class="title">Venda</h3>
+                    <h2>{imovel.precoVenda}</h2>
+                  </li>
+                  <li>
+                    <h3 class="title">Locação</h3>
+                    <h2>{imovel.precoLocacao}</h2>
+                  </li>
+                </ul>
+
+                <div class="mt-30 choose-btn">
+                  <a href="#contact" class="btn pulse"
+                    >Fale com um especialista</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- choose-area-end -->
+
+    <iframe
+      width="100%"
+      height="500"
+      class="gmap_iframe"
+      frameborder="0"
+      scrolling="no"
+      marginheight="0"
+      marginwidth="0"
+      src={`https://maps.google.com/maps?q=${imovel.latitude},${imovel.longitude}&z=16&output=embed`}
+    ></iframe>
+
+    <!-- contact-area -->
+    <section
+      id="contact"
+      class="p-relative pt-120 pb-120 contact-area contact-bg fix"
+    >
+      <div class="container">
+        <div class="justify-content-center row">
+          <div class="col-xl-8">
+            <div
+              class="mb-40 text-center section-title wow fadeInDown animated"
+              data-animation="fadeInDown animated"
+              data-delay=".2s"
+            >
+              <h2>Vamos desenhar juntos sua nova vida em Indaiatuba</h2>
+              <h3>Conte para nós o que você busca.</h3>
+              <p>
+                Nós cuidamos dos imóveis — e também da sua integração à
+                cidade.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <form
+              action="#"
+              class="contact-form wow fadeInUp animated"
+              data-animation="fadeInDown animated"
+              data-delay=".2s"
+            >
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="p-relative mb-40 contact-field c-name">
+                    <input type="text" placeholder="Nome*" />
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="p-relative mb-40 contact-field c-email">
+                    <input type="text" placeholder="Email*" />
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="p-relative mb-45 contact-field c-message">
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="30"
+                      rows="10"
+                      placeholder="Mensagem"
+                    ></textarea>
+                  </div>
+                  <button class="btn pulse">
+                    Iniciar atendimento personalizado agora.
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact-area-end -->
+  </main>
+  <!-- main-area-end -->
+</Layout>

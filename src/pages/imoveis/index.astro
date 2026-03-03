@@ -1,0 +1,132 @@
+---
+import { getImage } from 'astro:assets';
+import Layout from '../../layouts/Layout.astro';
+import bgHeaderPath from '../../assets/images/testmonial-bg.webp';
+
+const bgHeader = await getImage({ src: bgHeaderPath });
+---
+
+<Layout>
+  <main>
+    <!-- breadcrumb-area -->
+    <section
+      class="d-flex align-items-center breadcrumb-area"
+      style={`background-image: url(${bgHeader.src});`}
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
+            <div class="text-center breadcrumb-wrap">
+              <div class="mb-30 breadcrumb-title">
+                <h2>Imóveis</h2>
+              </div>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="/">Home</a>
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Imóveis
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- breadcrumb-area-end -->
+
+    <!-- gallery-area-->
+    <section id="services" class="pt-120 pb-90 services-area">
+      <div class="container">
+        
+        <div x-data="listProps()">
+          <div class="row services-active2">
+            <template x-for="imovel in showing" :key="imovel.id">
+              <div class="mb-30 col-xl-4">
+                <div class="single-services">
+                  <div class="services-thumb">
+                    <a :href="`/imoveis/${imovel.slug}`" :title="imovel.titulo">
+                      <img :src="imovel.fotoPrincipal" :alt="imovel.titulo"/>
+                    </a>
+                  </div>
+                  <div class="services-content">
+                    <p x-text="imovel.id" class="id"></p>
+                    <p x-text="imovel.tipoImovel" class="type"></p>
+
+                    <h4>
+                      <a x-text="imovel.titulo" :href="`/imoveis/${imovel.slug}`" :title="imovel.titulo"></a>
+                    </h4>
+
+                    <h3 x-text="imovel.nomeCondominio"></h3>
+
+                    <ul class="prop-list">
+                      <li><span x-text="imovel.areaUtil"></span> m²</li>
+                      <li><span x-text="imovel.qtdDormitorios"></span> Quartos</li>
+                      <li><span x-text="imovel.qtdSuites"></span> Suites</li>
+                      <li><span x-text="imovel.qtdBanheiros"></span> Banheiro</li>
+                      <li><span x-text="imovel.qtdVagas"></span> Vagas</li>
+                    </ul>
+                    
+                    <div class="price-list">
+                      <div>
+                        <span>Venda</span>
+                        <div class="price">
+                          <p x-text="imovel.precoVenda"></p>
+                        </div>
+                      </div>
+                      <div>
+                        <span>Locação</span>
+                        <div class="price">
+                          <p x-text="imovel.precoLocacao"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </template>
+          </div>
+          
+          <div x-show="loading" class="loader"></div>
+
+          <div x-data="showing">
+            <template x-if="showing.length > 0">
+            <button @click="showMore()" class="btn ss-btn">
+              Ver mais
+            </button>
+            </template>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery-area-end -->
+  </main>
+
+  <script> 
+    document.addEventListener('alpine:init', () => {
+      Alpine.data('listProps', () => ({
+        imoveis: [],
+        showing: [],
+        limit: 12,
+        step: 6,
+        loading: true,
+
+        async init () {
+          const res = await fetch('/data/properties.json')
+          this.imoveis = await res.json()
+          this.showing = this.imoveis.slice(0, this.limit)
+          this.loading = false
+        },
+
+        showMore () {
+          const newProperties = this.imoveis.slice(this.limit, this.limit + this.step)
+          this.showing.push(...newProperties)
+          this.limit += this.step
+        }
+      }))
+    });
+  </script>
+</Layout>

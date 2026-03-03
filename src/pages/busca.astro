@@ -1,0 +1,206 @@
+---
+import { getImage } from 'astro:assets';
+import Layout from '../layouts/Layout.astro';
+import bgHeaderPath from '../assets/images/testmonial-bg.webp';
+
+const bgHeader = await getImage({ src: bgHeaderPath });
+---
+
+<Layout>
+  <main>
+
+    <!-- gallery-area-->
+    <section id="services" class="pt-120 pb-90 services-area">
+      <div class="container">
+        
+        
+        <div x-data="listProps()">
+          <p x-text="nresults"></p>
+          <input type="text" x-model="term"  placeholder="Buscar..."/>
+          <button @click="filter()">Buscar imovel</button>
+
+          <div class="row services-active2">
+            <template x-for="imovel in showing" :key="imovel.id">
+              <div class="mb-30 col-xl-4">
+                <div class="single-services">
+                  <div class="services-thumb">
+                    <a :href="`/imoveis/${imovel.slug}`" :title="imovel.titulo">
+                      <img :src="imovel.fotoPrincipal" :alt="imovel.titulo"/>
+                    </a>
+                  </div>
+                  <div class="services-content">
+                    <p x-text="imovel.id" class="id"></p>
+                    <p x-text="imovel.tipoImovel" class="type"></p>
+
+                    <h4>
+                      <a x-text="imovel.titulo" :href="`/imoveis/${imovel.slug}`" :title="imovel.titulo"></a>
+                    </h4>
+
+                    <h3 x-text="imovel.nomeCondominio"></h3>
+
+                    <ul class="prop-list">
+                      <li><span x-text="imovel.areaUtil"></span> m²</li>
+                      <li><span x-text="imovel.qtdDormitorios"></span> Quartos</li>
+                      <li><span x-text="imovel.qtdSuites"></span> Suites</li>
+                      <li><span x-text="imovel.qtdBanheiros"></span> Banheiro</li>
+                      <li><span x-text="imovel.qtdVagas"></span> Vagas</li>
+                    </ul>
+                    
+                    <div class="price-list">
+                      <div>
+                        <span>Venda</span>
+                        <div class="price">
+                          <p x-text="imovel.precoVenda"></p>
+                        </div>
+                      </div>
+                      <div>
+                        <span>Locação</span>
+                        <div class="price">
+                          <p x-text="imovel.precoLocacao"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </template>
+          </div>
+          
+          <!-- <div x-show="loading" class="loader"></div> -->
+
+          <div x-data="showing">
+            <template x-if="showing.length > 0">
+            <button @click="showMore()" class="btn ss-btn">
+              Ver mais
+            </button>
+            </template>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <script>
+    import MiniSearch from 'minisearch';
+
+    document.addEventListener('alpine:init', () => {
+      Alpine.data('listProps', () => ({
+        minsearch: null,
+        results: [],
+        showing: [],
+        nresults: null,
+        term: 'são',
+        limit: 6,
+        step: 6,
+        loading: true,
+
+        async init () {
+          const res = await fetch('/data/search-index.json');
+          let indexJson = await res.text();
+
+          //console.log(indexJson);
+
+          this.minsearch = MiniSearch.loadJSON(indexJson, {
+            fields: ['id', 'titulo', 'cidade', 'bairro', 'regiao', 'condominio', 'descricao'],
+            searchOptions: {
+              fuzzy: 0.2,
+              prefix: true,
+              boost: { titulo: 3, condominio: 2.5, bairro: 2, cidade: 1.5, regiao: 1.2, descricao: 0.8 },
+              combineWith: 'AND'
+            },
+            storeField: ["id","titulo","valor","cidade","bairro","fotoPrincipal"]
+          });
+
+          //MiniSearch.wildcard
+          //if() {
+          //  this.term = "Venda";
+          //  this.filter();
+          //}
+
+          
+          this.loading = false
+        },
+        
+        filter () {
+          //Se o campo texto for vazio, trazer todos os imoveis
+          
+          this.limit = 6;
+          let query = this.term || MiniSearch.wildcard;
+
+          
+
+          //if (!this.term || !this.minsearch) {
+          //  this.results = []
+          //  return
+          //}
+
+          this.results = this.minsearch.search(query);
+
+          //console.log(this.results)
+
+          //this.results = this.minsearch.search(query, {
+            //filter: result =>
+              //result.quartos >= 2 &&
+              //result.banheiros >= 1 &&
+              //result.vagas >= 1 &&
+              //result.preco >= 0 &&
+              //result.preco <= 50000000
+              //result.id == '' &&
+              //result.cidade == ''
+          //});
+
+          //console.log(this.results);
+
+          this.nresults = this.results.length;
+          this.showing = this.results.slice(0, this.limit);
+          
+          console.log('Results: ',this.results);
+          console.log('Showing: ',this.showing);
+        },
+
+        showMore () {
+          const newProperties = this.results.slice(this.limit, this.limit + this.step)
+          this.showing.push(...newProperties)
+          this.limit += this.step
+        }
+      }))
+    });
+
+    // const resposta = await fetch('/data/index.json');
+    // let indexData = await resposta.json();
+    // indexData = JSON.stringify(indexData);
+
+
+    //ok Resquest json
+    //ok stringfy do json
+    //ok Setar json no minisearch
+    //Listar todos os imoveis do storefields (Miniserach)
+    //Pegar parametro na url
+    //Usar valor do parametro para busca com minisearch
+    //Fazer loop no resultado
+    //Exibir lista imoveis
+
+
+
+
+    
+
+    //console.log(miniSearch.search('ap6542'));
+    //console.log(miniSearch.getStoredFields(indexData));
+
+
+
+    //Acho qe o titulo eu nao vou trazer
+    // const miniSearch = MiniSearch.loadJSON(indexData, {
+    //   fields: ['id', 'titulo', 'cidade', 'bairro', 'regiao', 'condominio', 'descricao'],
+    //   searchOptions: {
+    //     fuzzy: 0.2,
+    //     prefix: true,
+    //     boost: { titulo: 3, condominio: 2.5, bairro: 2, cidade: 1.5, regiao: 1.2, descricao: 0.8 },
+    //     combineWith: 'AND'
+    //   }
+    // });
+  </script>
+</Layout>

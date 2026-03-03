@@ -1,0 +1,530 @@
+---
+import data from '../../public/data/properties-home.json';
+import { getImage } from 'astro:assets';
+import Image from "astro/components/Image.astro";
+import Layout from '../layouts/Layout.astro';
+import banner from '../assets/images/banner.webp';
+
+import section3 from '../assets/images/section-3.webp';
+import avatar from '../assets/images/test_avatar.png';
+import blog from '../assets/images/blog.jpg';
+import imovel from '../assets/images/imovel-270x220.webp';
+
+
+const bannerImage = await getImage({ src: banner });
+---
+
+<Layout>
+  <form>
+    <input type="text" />
+
+    <button>Encontrar Imovel</button>
+  </form>
+
+
+  <!-- main-area -->
+  <main>
+    <!-- slider-area -->
+    <section id="home" class="p-relative fix main-slider">
+      <div
+        class="d-flex align-items-center single-slider slider-bg"
+        style={`background-image: url(${bannerImage.src});`}
+      >
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8 offset-md-2 col-xl-6 offset-xl-0 col-xxl-6">
+              <div class="text-left slider-content s-slider-content">
+                <h2 data-animation="fadeInUp" data-delay=".4s">
+                  Você não escolhe apenas um imóvel. <br />
+                  Escolhe como quer viver.
+                </h2>
+                <p data-animation="fadeInUp" data-delay=".4s">
+                  Uma consultoria imobiliária especializada em imóveis de alto
+                  padrão no ABC Paulista, que seleciona oportunidades, orienta
+                  decisões e cuida de cada etapa com precisão.
+                </p>
+                <div class="mt-35 slider-btn">
+                  <a
+                    href="#contact"
+                    class="btn ss-btn pulse"
+                    data-animation="fadeInRight"
+                    data-delay=".8s"
+                    >Quero um atendimento personalizado
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- slider-area-end -->
+
+    <!-- gallery-area-->
+    <section id="services" class="pt-65 pb-35 services-area">
+      <div class="container">
+        <div class="justify-content-center row">
+          <div class="col-xl-8 col-lg-10">
+            <div class="mb-80 pr-40 pl-40 text-center section-title">
+              <h2>Imóveis em <span class="gold-color">destaque</span></h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row services-active">
+          {data.map((imovel) => (
+            <div class="col-xl-4">
+              <div class="single-services">
+                <div class="services-thumb">
+                  <a href={`/imoveis/${imovel.slug}`} title={imovel.titulo}>
+                    <img src={imovel.fotoPrincipal} alt={imovel.titulo} />
+                  </a>
+                </div>
+
+                <div class="services-content">
+                  <p class="id">{imovel.id}</p>
+                  <p class="type">{imovel.tipoImovel}</p>
+
+                  <h4>
+                    <a href={`/imoveis/${imovel.slug}`} title={imovel.titulo}>
+                      {imovel.titulo}
+                    </a>
+                  </h4>
+
+                  <h3>{imovel.nomeCondominio}</h3>
+
+                  <ul class="prop-list">
+                    <li><span>{imovel.areaUtil}</span> m²</li>
+                    <li><span>{imovel.qtdDormitorios}</span> Quartos</li>
+                    <li><span>{imovel.qtdSuites}</span> Suítes</li>
+                    <li><span>{imovel.qtdBanheiros}</span> Banheiros</li>
+                    <li><span>{imovel.qtdVagas}</span> Vagas</li>
+                  </ul>
+
+                  <div class="price-list">
+                    <div>
+                      <span>Venda</span>
+                      <div class="price">
+                        <p>{imovel.precoVenda}</p>
+                      </div>
+                    </div>
+
+                    <div>
+                      <span>Locação</span>
+                      <div class="price">
+                        <p>{imovel.precoLocacao}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <a
+          href="/imoveis"
+          class="btn pulse ss-btn"
+          data-animation="fadeInRight"
+          data-delay=".8s"
+          >Ver todos os imóveis</a
+        >
+      </div>
+    </section>
+    <!-- gallery-area-end -->
+
+    <!-- about-area -->
+    <section id="about" class="p-relative pt-35 pb-35 about-area about-p">
+      <div class="container">
+        <div class="align-items-center row">
+          <div class="col-lg-6">
+            <div class="p-relative s-about-img">
+              <Image src={section3} alt="Patrão Imóveis"></Image>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="pl-30 about-content s-about-content">
+              <div class="about-title second-atitle">
+                <h2>
+                  <span class="gold-color">Morar bem</span> exige mais do que
+                  escolher um bom imóvel
+                </h2>
+              </div>
+              <p>
+                Quem busca viver bem no ABC não procura apenas metragem. Busca
+                localização estratégica, conforto real, mobilidade, segurança
+                e uma rotina que funcione.
+              </p>
+              <p>
+                O mercado tradicional mostra opções. Nós ajudamos você a fazer
+                escolhas melhores.
+              </p>
+              <a href="#contact" class="btn pulse ss-btn"
+                >Fale com um especialista</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about-area-end -->
+
+    <!-- services-area -->
+    <section
+      id="services"
+      class="pt-35 pb-50 services-area services-bg services-two"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="mb-30 col-lg-4 col-md-6">
+            <div
+              class="s-single-services wow fadeInUp animated"
+              data-animation="fadeInDown animated"
+              data-delay=".2s"
+              style="visibility: visible; animation-name: fadeInUp"
+            >
+              <div class="services-ico2">
+                <i class="fas fa-coins"></i>
+              </div>
+              <div class="second-services-content2">
+                <h5>Uma região em constante valorização</h5>
+                <p>
+                  O ABC Paulista reúne infraestrutura consolidada, polos
+                  empresariais, acesso rápido à capital e bairros com alta
+                  liquidez imobiliária.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mb-30 col-lg-4 col-md-6">
+            <div
+              class="s-single-services wow fadeInUp animated"
+              data-animation="fadeInDown animated"
+              data-delay=".2s"
+              style="visibility: visible; animation-name: fadeInUp"
+            >
+              <div class="services-ico2">
+                <i class="far fa-building"></i>
+              </div>
+              <div class="second-services-content2">
+                <h5>Diferentes estilos de morar, o mesmo critério</h5>
+                <p>
+                  Casas, apartamentos, condomínios e bairros valorizados —
+                  todos avaliados com o mesmo rigor técnico e olhar de longo
+                  prazo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mb-30 col-lg-4 col-md-6">
+            <div
+              class="s-single-services wow fadeInUp animated"
+              data-animation="fadeInDown animated"
+              data-delay=".2s"
+              style="visibility: visible; animation-name: fadeInUp"
+            >
+              <div class="services-ico2">
+                <i class="fas fa-code-branch"></i>
+              </div>
+              <div class="second-services-content2">
+                <h5>Decisões mais inteligentes</h5>
+                <p>
+                  Aqui, cada escolha considera conforto, liquidez, perfil de
+                  uso e patrimônio.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#contact" class="btn pulse ss-btn"
+          >Converse com a gente e saiba mais</a
+        >
+      </div>
+    </section>
+    <!-- services-area-end -->
+
+    <!-- testimonial-area -->
+    <section
+      id="testimonios"
+      class="pt-25 pb-100 text-center testimonial-area testimonial-p"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-8">
+            <div
+              class="mb-40 section-title center-align wow fadeInDown animated"
+              data-animation="fadeInDown animated"
+              data-delay=".2s"
+            >
+              <h2>Depoimentos</h2>
+            </div>
+            <div class="testimonial-active">
+              <div class="single-testimonial">
+                <i class="fa-quote-left fas"></i>
+                <p>
+                  “Nam liber tempor cum soluta nobis eleifend option congue is
+                  nihil imper per tem por legere me doming vulputate velit
+                  esse molestiesoluta nobis eleifend option congue is nihil
+                  imper per tem por legere me doming vulputate velit esse
+                  molestiesoluta nobis eleifend option congue is nihil imper .
+                </p>
+                <div class="text-center testi-author">
+                  <Image src={avatar} alt="Patrão Imóveis"></Image>
+                  <div class="ta-info">
+                    <h6>Mr Jone Dose</h6>
+                    <span>Web Developer</span>
+                  </div>
+                </div>
+              </div>
+              <div class="single-testimonial">
+                <i class="fa-quote-left fas"></i>
+                <p>
+                  “Nam liber tempor cum soluta nobis eleifend option congue is
+                  nihil imper per tem por legere me doming vulputate velit
+                  esse molestiesoluta nobis eleifend option congue is nihil
+                  imper per tem por legere me doming vulputate velit esse
+                  molestiesoluta nobis eleifend option congue is nihil imper .
+                </p>
+                <div class="text-center testi-author">
+                  <Image src={avatar} alt="Patrão Imóveis"></Image>
+                  <div class="ta-info">
+                    <h6>Margie R. Robinson</h6>
+                    <span>Web Developer</span>
+                  </div>
+                </div>
+              </div>
+              <div class="single-testimonial">
+                <i class="fa-quote-left fas"></i>
+                <p>
+                  “Nam liber tempor cum soluta nobis eleifend option congue is
+                  nihil imper per tem por legere me doming vulputate velit
+                  esse molestiesoluta nobis eleifend option congue is nihil
+                  imper per tem por legere me doming vulputate velit esse
+                  molestiesoluta nobis eleifend option congue is nihil imper .
+                </p>
+                <div class="text-center testi-author">
+                  <Image src={avatar} alt="Patrão Imóveis"></Image>
+                  <div class="ta-info">
+                    <h6>Mr Jone Dose</h6>
+                    <span>Web Developer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2"></div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial-area-end -->
+
+    <!-- blog-area -->
+    <section id="blog" class="p-relative pt-65 pb-55 blog-area">
+      <div class="container">
+        <div class="justify-content-center row">
+          <div class="col-xl-8 col-lg-10">
+            <div
+              class="mb-80 text-center section-title wow fadeInDown animated"
+              data-animation="fadeInDown animated"
+              data-delay=".2s"
+            >
+              <span>Blog</span>
+              <h2>Acompanhe as novidades</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="mb-30 single-post active wow fadeInUp animated"
+              data-animation="fadeInDown animated"
+              data-delay=".2s"
+            >
+              <div class="blog-thumb">
+                <a><Image src={blog} alt="Patrão Imóveis" height="250"></Image></a>
+              </div>
+              <div class="blog-content">
+                <div class="mb-20 b-meta">
+                  <ul>
+                    <li><a href="#">By admin .</a></li>
+                    <li><a href="#">5 Dec 2019 .</a></li>
+                    <li><a href="#" class="corpo">Real este </a></li>
+                  </ul>
+                </div>
+                <h4>
+                  <a>
+                    Monthly Web Development Upto Cost Of JavaScript Ethics</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="mb-30 single-post active wow fadeInUp animated"
+              data-animation="fadeInDown animated"
+              data-delay=".2s"
+            >
+              <div class="blog-thumb">
+                <a><Image src={blog} alt="Patrão Imóveis" height="250"></Image></a>
+              </div>
+              <div class="blog-content">
+                <div class="mb-20 b-meta">
+                  <ul>
+                    <li><a href="#">By admin .</a></li>
+                    <li><a href="#">5 Dec 2019 .</a></li>
+                    <li><a href="#" class="corpo">Real este </a></li>
+                  </ul>
+                </div>
+                <h4>
+                  <a
+                    >Monthly Web Development Upto Cost Of JavaScript Ethics</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="mb-30 single-post active wow fadeInUp animated"
+              data-animation="fadeInDown animated"
+              data-delay=".2s"
+            >
+              <div class="blog-thumb">
+                <a><Image src={blog} alt="Patrão Imóveis" height="250"></Image></a>
+              </div>
+              <div class="blog-content">
+                <div class="mb-20 b-meta">
+                  <ul>
+                    <li><a href="#">By admin .</a></li>
+                    <li><a href="#">5 Dec 2019 .</a></li>
+                    <li><a href="#" class="corpo">Real este </a></li>
+                  </ul>
+                </div>
+                <h4>
+                  <a
+                    >Monthly Web Development Upto Cost Of JavaScript Ethics</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="btn pulse ss-btn">Ver todas as novidades</a>
+      </div>
+    </section>
+    <!-- blog-area-end -->
+
+    <!-- contact-area -->
+    <section
+      id="contact"
+      class="p-relative pt-65 pb-70 contact-area contact-bg fix"
+    >
+      <div class="container">
+        <div class="justify-content-center row">
+          <div class="col-xl-8">
+            <div
+              class="mb-40 text-center section-title wow fadeInDown animated"
+              data-animation="fadeInDown animated"
+              data-delay=".2s"
+            >
+              <h2>Vamos desenhar juntos sua nova vida em Indaiatuba</h2>
+              <h3>Conte para nós o que você busca.</h3>
+              <p>
+                Nós cuidamos dos imóveis — e também da sua integração à
+                cidade.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <form
+              action="#"
+              class="contact-form wow fadeInUp animated"
+              data-animation="fadeInDown animated"
+              data-delay=".2s"
+            >
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="p-relative mb-40 contact-field c-name">
+                    <input type="text" placeholder="Nome*" />
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="p-relative mb-40 contact-field c-email">
+                    <input type="text" placeholder="Email*" />
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="p-relative mb-45 contact-field c-message">
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="30"
+                      rows="10"
+                      placeholder="Mensagem"
+                    ></textarea>
+                  </div>
+                  <button class="btn pulse ss-btn">
+                    Iniciar atendimento personalizado agora.
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact-area-end -->
+  </main>
+  <!-- main-area-end -->
+
+
+  <script type="module">
+    import MiniSearch from 'minisearch';
+
+    //const res = await fetch('/data/imoveis.json');
+    //console.log(res);
+
+    const documents = [
+      {
+        id: 1,
+        title: 'Moby Dick',
+        text: 'Call me Ishmael. Some years ago...',
+        category: 'fiction'
+      },
+      {
+        id: 2,
+        title: 'Zen and the Art of Motorcycle Maintenance',
+        text: 'I can see by my watch...',
+        category: 'fiction'
+      },
+      {
+        id: 3,
+        title: 'Neuromancer',
+        text: 'The sky above the port was...',
+        category: 'fiction'
+      },
+      {
+        id: 4,
+        title: 'Zen and the Art of Archery',
+        text: 'At first sight it must seem...',
+        category: 'non-fiction'
+      }
+    ];
+
+    let miniSearch = new MiniSearch({
+      fields: ['title', 'text'], // fields to index for full-text search
+      storeFields: ['title', 'category'] // fields to return with search results
+    })
+
+    // Index all documents
+    miniSearch.addAll(documents);
+
+    let results = miniSearch.search('zen art motorcycle');
+
+    console.log(results);
+  </script>
+</Layout>

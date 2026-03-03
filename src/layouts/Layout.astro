@@ -1,0 +1,65 @@
+---
+import "../assets/styles/bootstrap.min.css";
+import "../assets/styles/animate.min.css";
+import "../assets/styles/magnific-popup.css";
+//import "../assets/styles/fontawesome-all.min.css";
+import "@phosphor-icons/web/regular/style.css";
+import "../assets/styles/dripicons.css";
+import "../assets/styles/slick.css";
+import "../assets/styles/default.css";
+import "../assets/styles/style.css";
+import "../assets/styles/responsive.css";
+
+import Footer from "../components/layout/Footer.astro";
+import Navigation from "../components/layout/Navigation.astro";
+
+const { title, pageClass } = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro Basics</title>
+	</head>
+	<body>
+    <Navigation />
+    <slot />
+    <Footer />
+
+
+
+
+    <!-- JS here -->
+    <script is:inline src="/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script is:inline src="/js/vendor/jquery-1.12.4.min.js"></script>
+    <script is:inline src="/js/popper.min.js"></script>
+    <script is:inline src="/js/bootstrap.min.js"></script>
+    <script is:inline src="/js/one-page-nav-min.js"></script>
+    <script is:inline src="/js/slick.min.js"></script>
+    <script is:inline src="/js/ajax-form.js"></script>
+    <script is:inline src="/js/paroller.js"></script>
+    <script is:inline src="/js/wow.min.js"></script>
+    <script is:inline src="/js/js_isotope.pkgd.min.js"></script>
+    <script is:inline src="/js/imagesloaded.min.js"></script>
+    <script is:inline src="/js/parallax.min.js"></script>
+    <script is:inline src="/js/jquery.waypoints.min.js"></script>
+    <script is:inline src="/js/jquery.counterup.min.js"></script>
+    <script is:inline src="/js/jquery.magnific-popup.min.js"></script>
+    <script is:inline src="/js/element-in-view.js"></script>
+    <script is:inline src="/js/main.js"></script>
+	</body>
+</html>
+
+<style>
+	html,
+	body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>
