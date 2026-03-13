@@ -1,23 +1,481 @@
 ---
-import { getImage } from 'astro:assets';
-import Layout from '../layouts/Layout.astro';
-import bgHeaderPath from '../assets/images/testmonial-bg.webp';
+import "../assets/styles/global.css";
+import { getImage } from "astro:assets";
+import Layout from "../layouts/Layout.astro";
+import bgHeaderPath from "../assets/images/testmonial-bg.webp";
 
 const bgHeader = await getImage({ src: bgHeaderPath });
 ---
 
 <Layout>
   <main>
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Drawer Menu -->
+    <div class="drawer" id="drawer">
+      <form class="flex flex-col h-full" method="get">
+        <div class="drawer-header">
+          <h2>Mais filtros</h2>
+          <button class="close-btn" id="closeBtn" type="button">✕</button>
+        </div>
+
+        <div class="overflow-y-auto drawer-content">
+          <!-- Pretensao -->
+          <div class="mb-6">
+            <div class="gap-4 grid grid-cols-2">
+              <div class="relative">
+                <input
+                  type="radio"
+                  name="pretensao"
+                  value="comprar"
+                  id="pr_comprar"
+                />
+                <label for="pr_comprar" class="radio-filter"> À venda </label>
+              </div>
+
+              <div class="relative">
+                <input
+                  type="radio"
+                  name="pretensao"
+                  value="alugar"
+                  id="pr-alugar"
+                />
+                <label for="pr-alugar" class="radio-filter">
+                  Para alugar
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Finalidade -->
+          <div class="mb-6">
+            <h4 class="text-lg!">Finalidade</h4>
+            <div class="gap-4 grid grid-cols-2">
+              <div class="relative">
+                <input
+                  type="radio"
+                  name="finalidade"
+                  value="residencial"
+                  id="fn-residencial"
+                />
+                <label class="radio-filter" for="fn-residencial">
+                  Residencial
+                </label>
+              </div>
+
+              <div class="relative">
+                <input
+                  type="radio"
+                  name="finalidade"
+                  value="comercial"
+                  id="fn-comercial"
+                />
+                <label class="radio-filter" for="fn-comercial">
+                  Comercial
+                </label>
+              </div>
+
+              <div class="relative">
+                <input
+                  type="radio"
+                  name="finalidade"
+                  value="industrial"
+                  id="fn-industrial"
+                />
+                <label class="radio-filter" for="fn-industrial">
+                  Industrial
+                </label>
+              </div>
+
+              <div class="relative">
+                <input
+                  type="radio"
+                  name="finalidade"
+                  value="corporativa"
+                  id="fn-corporativa"
+                />
+                <label class="radio-filter" for="fn-corporativa">
+                  Corporativa
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tipo .. -->
+          <div class="mb-6">
+            <label class="font-medium! text-[#313133]!"> Tipo </label>
+            <select
+              name="tipo"
+              class="p-2.5 border border-[#d0d0d2] rounded-sm w-full text-[#313133]"
+            >
+              <option value="">Todos</option>
+              <option value="apartamento">Apartamento</option>
+              <option value="sobrado">Sobrado</option>
+              <option value="casa">Casa</option>
+              <option value="terreno">Terreno</option>
+              <option value="sala">Sala</option>
+              <option value="galpao">Galpão</option>
+              <option value="prédio">Prédio</option>
+              <option value="cobertura">Cobertura</option>
+              <option value="salao">Salão</option>
+              <option value="area">Área</option>
+              <option value="chacara">Chácara</option>
+              <option value="studio">Studio</option>
+              <option value="loja">loja</option>
+              <option value="flat">Flat</option>
+              <option value="kitnet">Kitnet</option>
+              <option value="laje">Laje</option>
+              <option value="sitio">Sítio</option>
+              <option value="apartamento triplex">Apartamento Triplex</option>
+              <option value="andar corporativo">Andar Corporativo</option>
+              <option value="hotel">Hotel</option>
+            </select>
+          </div>
+
+          <!-- Digite .. -->
+          <div class="mb-6">
+            <label class="font-medium! text-[#313133]!">
+              Digite condomínio, região, bairro ou cidade
+            </label>
+            <input
+              type="text"
+              name="busca"
+              placeholder="Digite condomínio, região, bairro ou cidade"
+              class="p-2.5 border border-[#d0d0d2] rounded-sm w-full text-[#313133]"
+            />
+          </div>
+
+          <!-- Preço -->
+          <div class="mb-6">
+            <label class="font-medium! text-[#313133]!"
+              >Preço <span class="text-gray-400">(Em desenvolvimento)</span
+              ></label
+            >
+            <div class="gap-4 grid grid-cols-2">
+              <div class="">
+                <div class="relative">
+                  <span>De:</span>
+                  <input
+                    type="text"
+                    name="precode"
+                    placeholder=""
+                    class="p-2.5 border border-[#d0d0d2] rounded-sm w-full text-[#313133]"
+                  />
+                </div>
+              </div>
+              <div class="">
+                <span>Até:</span>
+                <input
+                  type="text"
+                  name="precoate"
+                  placeholder=""
+                  class="p-2.5 border border-[#d0d0d2] rounded-sm w-full text-[#313133]"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Em condominio? -->
+          <div class="mb-6">
+            <label class="font-medium! text-[#313133]!">
+              Em condomínio fechado <span class="text-gray-400"
+                >(Em desenvolvimento)</span
+              >
+            </label>
+            <div class="gap-4 grid grid-cols-3 mb-4">
+              <div class="relative">
+                <input
+                  type="radio"
+                  value="sim"
+                  id="cond-sim"
+                  name="condominio"
+                />
+                <label class="text-sm radio-filter" for="cond-sim"> Sim </label>
+              </div>
+
+              <div class="relative">
+                <input
+                  type="radio"
+                  value="nao"
+                  id="cond-nao"
+                  name="condominio"
+                />
+                <label class="text-sm radio-filter" for="cond-nao"> Não </label>
+              </div>
+
+              <div class="relative">
+                <input
+                  type="radio"
+                  value="indiferente"
+                  id="cond-ind"
+                  name="condominio"
+                />
+                <label class="text-sm radio-filter" for="cond-ind">
+                  Indiferente
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quartos -->
+          <div class="mb-6">
+            <label class="font-medium! text-[#313133]!"> Quartos </label>
+            <div class="gap-4 grid grid-cols-5 mb-4">
+              <div class="relative">
+                <input type="radio" value="1" id="qtdomr-1" name="quartos" />
+                <label class="text-sm radio-filter" for="qtdomr-1"> 1+ </label>
+              </div>
+              <div class="relative">
+                <input type="radio" value="2" id="qtdomr-2" name="quartos" />
+                <label class="text-sm radio-filter" for="qtdomr-2"> 2+ </label>
+              </div>
+              <div class="relative">
+                <input type="radio" value="3" id="qtdomr-3" name="quartos" />
+                <label class="text-sm radio-filter" for="qtdomr-3"> 3+ </label>
+              </div>
+              <div class="relative">
+                <input type="radio" value="4" id="qtdomr-4" name="quartos" />
+                <label class="text-sm radio-filter" for="qtdomr-4"> 4+ </label>
+              </div>
+              <div class="relative">
+                <input type="radio" value="5" id="qtdomr-5" name="quartos" />
+                <label class="text-sm radio-filter" for="qtdomr-5"> 5+ </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Banheiros -->
+          <div class="mb-6">
+            <label class="font-medium! text-[#313133]!"> Banheiros </label>
+            <div class="gap-4 grid grid-cols-4 mb-4">
+              <div class="relative">
+                <input
+                  type="radio"
+                  value="1"
+                  id="qtbanheiros-1"
+                  name="banheiros"
+                />
+                <label class="text-sm radio-filter" for="qtbanheiros-1">
+                  1+
+                </label>
+              </div>
+              <div class="relative">
+                <input
+                  type="radio"
+                  value="2"
+                  id="qtbanheiros-2"
+                  name="banheiros"
+                />
+                <label class="text-sm radio-filter" for="qtbanheiros-2">
+                  2+
+                </label>
+              </div>
+              <div class="relative">
+                <input
+                  type="radio"
+                  value="3"
+                  id="qtbanheiros-3"
+                  name="banheiros"
+                />
+                <label class="text-sm radio-filter" for="qtbanheiros-3">
+                  3+
+                </label>
+              </div>
+              <div class="relative">
+                <input
+                  type="radio"
+                  value="4"
+                  id="qtbanheiros-4"
+                  name="banheiros"
+                />
+                <label class="text-sm radio-filter" for="qtbanheiros-4">
+                  4+
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mobiliado -->
+          <div class="mb-6">
+            <label class="font-medium! text-[#313133]!">
+              Mobiliado? <span class="text-gray-400">(Em desenvolvimento)</span>
+            </label>
+            <div class="gap-4 grid grid-cols-3 mb-4">
+              <div class="relative">
+                <input type="radio" value="sim" id="mob-sim" name="mobiliado" />
+                <label class="text-sm radio-filter" for="mob-sim"> Sim </label>
+              </div>
+
+              <div class="relative">
+                <input type="radio" value="nao" id="mob-nao" name="mobiliado" />
+                <label class="text-sm radio-filter" for="mob-nao"> Não </label>
+              </div>
+
+              <div class="relative">
+                <input
+                  type="radio"
+                  value="indiferente"
+                  id="mob-ind"
+                  name="mobiliado"
+                />
+                <label class="text-sm radio-filter" for="mob-ind">
+                  Indiferente
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Suites -->
+          <div class="mb-6">
+            <label class="font-medium! text-[#313133]!"> Suites </label>
+            <div class="gap-4 grid grid-cols-5 mb-4">
+              <div class="relative">
+                <input type="radio" value="1" id="qtsuites-1" name="suites" />
+                <label class="text-sm radio-filter" for="qtsuites-1">
+                  1+
+                </label>
+              </div>
+              <div class="relative">
+                <input type="radio" value="2" id="qtsuites-2" name="suites" />
+                <label class="text-sm radio-filter" for="qtsuites-2">
+                  2+
+                </label>
+              </div>
+              <div class="relative">
+                <input type="radio" value="3" id="qtsuites-3" name="suites" />
+                <label class="text-sm radio-filter" for="qtsuites-3">
+                  3+
+                </label>
+              </div>
+              <div class="relative">
+                <input type="radio" value="4" id="qtsuites-4" name="suites" />
+                <label class="text-sm radio-filter" for="qtsuites-4">
+                  4+
+                </label>
+              </div>
+              <div class="relative">
+                <input type="radio" value="5" id="qtsuites-5" name="suites" />
+                <label class="text-sm radio-filter" for="qtsuites-5">
+                  5+
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vagas -->
+          <div class="mb-6">
+            <label class="font-medium! text-[#313133]!"> Vagas </label>
+            <div class="gap-4 grid grid-cols-4 mb-4">
+              <div class="relative">
+                <input type="radio" value="1" id="qtvagas-1" name="vagas" />
+                <label class="text-sm radio-filter" for="qtvagas-1"> 1+ </label>
+              </div>
+              <div class="relative">
+                <input type="radio" value="2" id="qtvagas-2" name="vagas" />
+                <label class="text-sm radio-filter" for="qtvagas-2"> 2+ </label>
+              </div>
+              <div class="relative">
+                <input type="radio" value="3" id="qtvagas-3" name="vagas" />
+                <label class="text-sm radio-filter" for="qtvagas-3"> 3+ </label>
+              </div>
+              <div class="relative">
+                <input type="radio" value="4" id="qtvagas-4" name="vagas" />
+                <label class="text-sm radio-filter" for="qtvagas-4"> 4+ </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pets -->
+          <div class="mb-6">
+            <label class="font-medium! text-[#313133]!">
+              Aceita pet? <span class="text-gray-400">(Em desenvolvimento)</span
+              >
+            </label>
+            <div class="gap-4 grid grid-cols-3 mb-4">
+              <div class="relative">
+                <input type="radio" value="sim" id="pet-sim" name="pet" />
+                <label class="text-sm radio-filter" for="pet-sim"> Sim </label>
+              </div>
+
+              <div class="relative">
+                <input type="radio" value="nao" id="pet-nao" name="pet" />
+                <label class="text-sm radio-filter" for="pet-nao"> Não </label>
+              </div>
+
+              <div class="relative">
+                <input
+                  type="radio"
+                  value="indiferente"
+                  id="pet-ind"
+                  name="pet"
+                />
+                <label class="text-sm radio-filter" for="pet-ind">
+                  Indiferente
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Área -->
+          <div class="mb-6">
+            <label class="font-medium! text-[#313133]!">
+              Área <span class="text-gray-400">(Em desenvolvimento)</span>
+            </label>
+            <div class="gap-4 grid grid-cols-2">
+              <div class="">
+                <div class="relative">
+                  <span>De:</span>
+                  <input
+                    type="text"
+                    name="areade"
+                    placeholder=""
+                    class="p-2.5 border border-[#d0d0d2] rounded-sm w-full text-[#313133]"
+                  />
+                </div>
+              </div>
+              <div class="">
+                <span>Até:</span>
+                <input
+                  type="text"
+                  name="areaate"
+                  placeholder=""
+                  class="p-2.5 border border-[#d0d0d2] rounded-sm w-full text-[#313133]"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gap-4 grid grid-cols-2 p-4! border border-t-[#d0d0d2]">
+          <button
+            type="subimit"
+            class="bg-[#F3BB25] px-3 py-2 rounded-[10px] overflow-hidden text-[#313133]! text-center cursor-pointer"
+          >
+            Encontrar imóveis
+          </button>
+
+          <button
+            class="px-3 py-2 border border-t-[#d0d0d2] rounded-[10px] overflow-hidden text-[#313133]! text-center"
+          >
+            Limpar filtros
+          </button>
+        </div>
+      </form>
+    </div>
 
     <!-- gallery-area-->
     <section id="services" class="pt-120 pb-90 services-area">
       <div class="container">
-        
-        
         <div x-data="listProps()">
-          <p x-text="nresults"></p>
-          <input type="text" x-model="term"  placeholder="Buscar..."/>
-          <button @click="filter()">Buscar imovel</button>
+          <div class="line-results">
+            <p class="search-results">
+              <span x-text="nresults"></span>
+              Imóveis encontrados
+            </p>
+
+            <button class="btn-filter" id="menuToggle"> Mais filtros + </button>
+          </div>
 
           <div class="row services-active2">
             <template x-for="imovel in showing" :key="imovel.id">
@@ -25,7 +483,7 @@ const bgHeader = await getImage({ src: bgHeaderPath });
                 <div class="single-services">
                   <div class="services-thumb">
                     <a :href="`/imoveis/${imovel.slug}`" :title="imovel.titulo">
-                      <img :src="imovel.fotoPrincipal" :alt="imovel.titulo"/>
+                      <img :src="imovel.fotoPrincipal" :alt="imovel.titulo" />
                     </a>
                   </div>
                   <div class="services-content">
@@ -33,27 +491,40 @@ const bgHeader = await getImage({ src: bgHeaderPath });
                     <p x-text="imovel.tipoImovel" class="type"></p>
 
                     <h4>
-                      <a x-text="imovel.titulo" :href="`/imoveis/${imovel.slug}`" :title="imovel.titulo"></a>
+                      <a
+                        x-text="imovel.titulo"
+                        :href="`/imoveis/${imovel.slug}`"
+                        :title="imovel.titulo"></a>
                     </h4>
 
                     <h3 x-text="imovel.nomeCondominio"></h3>
 
                     <ul class="prop-list">
-                      <li><span x-text="imovel.areaUtil"></span> m²</li>
-                      <li><span x-text="imovel.qtdDormitorios"></span> Quartos</li>
-                      <li><span x-text="imovel.qtdSuites"></span> Suites</li>
-                      <li><span x-text="imovel.qtdBanheiros"></span> Banheiro</li>
-                      <li><span x-text="imovel.qtdVagas"></span> Vagas</li>
+                      <li x-show="imovel.areaUtil">
+                        <span x-text="imovel.areaUtil"></span> m²
+                      </li>
+                      <li x-show="imovel.qtdDormitorios">
+                        <span x-text="imovel.qtdDormitorios"></span> Quartos
+                      </li>
+                      <li x-show="imovel.qtdSuites">
+                        <span x-text="imovel.qtdSuites"></span> Suites
+                      </li>
+                      <li x-show="imovel.qtdBanheiros">
+                        <span x-text="imovel.qtdBanheiros"></span> Banheiro
+                      </li>
+                      <li x-show="imovel.qtdVagas">
+                        <span x-text="imovel.qtdVagas"></span> Vagas
+                      </li>
                     </ul>
-                    
+
                     <div class="price-list">
-                      <div>
+                      <div x-show="imovel.precoVenda">
                         <span>Venda</span>
                         <div class="price">
                           <p x-text="imovel.precoVenda"></p>
                         </div>
                       </div>
-                      <div>
+                      <div x-show="imovel.precoLocacao">
                         <span>Locação</span>
                         <div class="price">
                           <p x-text="imovel.precoLocacao"></p>
@@ -65,142 +536,263 @@ const bgHeader = await getImage({ src: bgHeaderPath });
               </div>
             </template>
           </div>
-          
-          <!-- <div x-show="loading" class="loader"></div> -->
+
+          <div x-show="loading" class="loader"></div>
 
           <div x-data="showing">
             <template x-if="showing.length > 0">
-            <button @click="showMore()" class="btn ss-btn">
-              Ver mais
-            </button>
+              <button @click="showMore()" class="btn ss-btn"> Ver mais </button>
             </template>
           </div>
         </div>
       </div>
     </section>
-
   </main>
 
-
   <script>
-    import MiniSearch from 'minisearch';
+    import MiniSearch from "minisearch";
 
-    document.addEventListener('alpine:init', () => {
-      Alpine.data('listProps', () => ({
+    document.addEventListener("alpine:init", () => {
+      Alpine.data("listProps", () => ({
         minsearch: null,
         results: [],
         showing: [],
         nresults: null,
-        term: 'são',
-        limit: 6,
-        step: 6,
+        term: "",
+        limit: 12,
+        step: 12,
         loading: true,
 
-        async init () {
-          const res = await fetch('/data/search-index.json');
-          let indexJson = await res.text();
+        async init() {
+          try {
+            const res = await fetch("/data/search.json");
+            let indexJson = await res.text();
 
-          //console.log(indexJson);
+            this.minsearch = MiniSearch.loadJSON(indexJson, {
+              fields: [
+                "id",
+                "titulo",
+                "tituloImovel",
+                "tipoImovel",
+                "finalidade",
+                "cidade",
+                "bairro",
+                "nomeCondominio",
+                "venda",
+                "locacao",
+              ],
 
-          this.minsearch = MiniSearch.loadJSON(indexJson, {
-            fields: ['id', 'titulo', 'cidade', 'bairro', 'regiao', 'condominio', 'descricao'],
-            searchOptions: {
-              fuzzy: 0.2,
-              prefix: true,
-              boost: { titulo: 3, condominio: 2.5, bairro: 2, cidade: 1.5, regiao: 1.2, descricao: 0.8 },
-              combineWith: 'AND'
+              storeField: [
+                "id",
+                "slug",
+                "titulo",
+                "tipoImovel",
+                "finalidade",
+                "precoVenda",
+                "precoLocacao",
+                "areaUtil",
+                "qtdDormitorios",
+                "qtdSuites",
+                "qtdBanheiros",
+                "qtdVagas",
+                "fotoPrincipal",
+                "venda",
+                "locacao",
+              ],
+
+              searchOptions: {
+                fuzzy: 0.2,
+                prefix: true,
+                boost: {
+                  TituloImovel: 3,
+                  NomeCondominio: 2.5,
+                  Bairro: 2,
+                  Cidade: 1.5,
+                },
+                combineWith: "AND",
+              },
+            });
+
+            this.filter();
+            this.loading = false;
+          } catch (err) {
+            console.log(err);
+          }
+        },
+
+        fillfilter(data) {
+          console.log("fillfilter: ", data);
+
+          Object.entries(data).forEach(([key, value]) => {
+            let radio = document.querySelector(
+              `input[name="${key}"][value="${value}"]`,
+            );
+            let select = document.querySelector(`select[name="${key}"]`);
+            let text = document.querySelector(`input[name="${key}"]`);
+
+            //Radio
+            if (
+              radio &&
+              (key == "pretensao" ||
+                key == "finalidade" ||
+                key == "quartos" ||
+                key == "banheiros" ||
+                key == "suites" ||
+                key == "vagas")
+            ) {
+              radio.checked = true;
+            }
+
+            //select
+            if (select && key == "tipo") {
+              select.value = value;
+            }
+
+            // Text
+            if (
+              (text && key == "busca") ||
+              key == "precode" ||
+              key == "precoate"
+            ) {
+              text.value = value;
+            }
+          });
+        },
+
+        filter() {
+          this.limit = 12;
+
+          const params = new URLSearchParams(window.location.search);
+
+          const paramsValue = {
+            busca: params.get("busca"),
+            pretensao: params.get("pretensao"),
+            finalidade: params.get("finalidade"),
+            tipo: params.get("tipo"),
+            precode: Number(params.get("precode")),
+            precoate: Number(params.get("precoate")),
+
+            //const precoMin = Number(params.get("precoMin")),
+            //const precoMax = Number(params.get("precoMax")),
+
+            //condominio
+            //---
+
+            quartos: params.get("quartos"),
+            banheiros: params.get("banheiros"),
+            //mobiliado
+            suites: params.get("suites"),
+            vagas: params.get("vagas"),
+
+            //pet
+            //---
+          };
+
+          console.log("paramsValue: ", paramsValue);
+
+          const query =
+            paramsValue.busca && paramsValue.busca.trim() !== ""
+              ? paramsValue.busca
+              : MiniSearch.wildcard;
+
+          this.results = this.minsearch.search(query, {
+            filter: (result) => {
+              if (paramsValue.pretensao === "comprar" && result.venda !== 1)
+                return false;
+
+              if (paramsValue.pretensao === "alugar" && result.locacao !== 1)
+                return false;
+
+              if (
+                paramsValue.finalidade &&
+                result.finalidade !== paramsValue.finalidade
+              )
+                return false;
+
+              if (paramsValue.tipo && result.tipoImovel !== paramsValue.tipo)
+                return false;
+
+              if (
+                this.getInterval(
+                  result.precoVenda,
+                  paramsValue.precode,
+                  paramsValue.precoate,
+                )
+              )
+                return false;
+
+              if (
+                this.getInterval(
+                  result.precoLocacao,
+                  paramsValue.precode,
+                  paramsValue.precoate,
+                )
+              )
+                return false;
+
+              //condominio
+              //---
+
+              //Quartos
+              if (
+                paramsValue.quartos &&
+                result.qtdDormitorios < paramsValue.quartos
+              )
+                return false;
+
+              //Banheiros
+              if (
+                paramsValue.banheiros &&
+                result.qtdBanheiros < paramsValue.banheiros
+              )
+                return false;
+
+              //mobiliado
+              //---
+
+              //suites
+              if (paramsValue.suites && result.qtdSuites < paramsValue.suites)
+                return false;
+
+              //Vagas
+              if (paramsValue.vagas && result.qtdVagas < paramsValue.vagas)
+                return false;
+
+              //Pet
+              //---
+
+              return true;
             },
-            storeField: ["id","titulo","valor","cidade","bairro","fotoPrincipal"]
           });
 
-          //MiniSearch.wildcard
-          //if() {
-          //  this.term = "Venda";
-          //  this.filter();
-          //}
-
-          
-          this.loading = false
-        },
-        
-        filter () {
-          //Se o campo texto for vazio, trazer todos os imoveis
-          
-          this.limit = 6;
-          let query = this.term || MiniSearch.wildcard;
-
-          
-
-          //if (!this.term || !this.minsearch) {
-          //  this.results = []
-          //  return
-          //}
-
-          this.results = this.minsearch.search(query);
-
-          //console.log(this.results)
-
-          //this.results = this.minsearch.search(query, {
-            //filter: result =>
-              //result.quartos >= 2 &&
-              //result.banheiros >= 1 &&
-              //result.vagas >= 1 &&
-              //result.preco >= 0 &&
-              //result.preco <= 50000000
-              //result.id == '' &&
-              //result.cidade == ''
-          //});
-
-          //console.log(this.results);
+          // console.log("busca: ", paramsValue.busca);
+          // console.log("pretensao: ", paramsValue.pretensao);
+          // console.log("finalidade: ", paramsValue.finalidade);
+          // console.log("tipo: ", paramsValue.tipo);
 
           this.nresults = this.results.length;
           this.showing = this.results.slice(0, this.limit);
-          
-          console.log('Results: ',this.results);
-          console.log('Showing: ',this.showing);
+          this.fillfilter(paramsValue);
+
+          //console.log("Results: ", this.results);
+          //console.log('Showing: ',this.showing);
         },
 
-        showMore () {
-          const newProperties = this.results.slice(this.limit, this.limit + this.step)
-          this.showing.push(...newProperties)
-          this.limit += this.step
-        }
-      }))
+        getInterval(valJson, valMinParam, valMaxParam) {
+          if (valMinParam && valJson < valMinParam) return true;
+          if (valMaxParam && valJson > valMaxParam) return true;
+          return false;
+        },
+
+        showMore() {
+          const newProperties = this.results.slice(
+            this.limit,
+            this.limit + this.step,
+          );
+          this.showing.push(...newProperties);
+          this.limit += this.step;
+        },
+      }));
     });
-
-    // const resposta = await fetch('/data/index.json');
-    // let indexData = await resposta.json();
-    // indexData = JSON.stringify(indexData);
-
-
-    //ok Resquest json
-    //ok stringfy do json
-    //ok Setar json no minisearch
-    //Listar todos os imoveis do storefields (Miniserach)
-    //Pegar parametro na url
-    //Usar valor do parametro para busca com minisearch
-    //Fazer loop no resultado
-    //Exibir lista imoveis
-
-
-
-
-    
-
-    //console.log(miniSearch.search('ap6542'));
-    //console.log(miniSearch.getStoredFields(indexData));
-
-
-
-    //Acho qe o titulo eu nao vou trazer
-    // const miniSearch = MiniSearch.loadJSON(indexData, {
-    //   fields: ['id', 'titulo', 'cidade', 'bairro', 'regiao', 'condominio', 'descricao'],
-    //   searchOptions: {
-    //     fuzzy: 0.2,
-    //     prefix: true,
-    //     boost: { titulo: 3, condominio: 2.5, bairro: 2, cidade: 1.5, regiao: 1.2, descricao: 0.8 },
-    //     combineWith: 'AND'
-    //   }
-    // });
   </script>
 </Layout>

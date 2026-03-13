@@ -70,13 +70,13 @@ const bgHeader = await getImage({ src: bgHeaderPath });
                     </ul>
                     
                     <div class="price-list">
-                      <div>
+                      <div x-show="imovel.precoVenda">
                         <span>Venda</span>
                         <div class="price">
                           <p x-text="imovel.precoVenda"></p>
                         </div>
                       </div>
-                      <div>
+                      <div x-show="imovel.precoLocacao">
                         <span>Locação</span>
                         <div class="price">
                           <p x-text="imovel.precoLocacao"></p>
@@ -115,7 +115,7 @@ const bgHeader = await getImage({ src: bgHeaderPath });
         loading: true,
 
         async init () {
-          const res = await fetch('/data/properties.json')
+          const res = await fetch('/data/list.json')
           this.imoveis = await res.json()
           this.showing = this.imoveis.slice(0, this.limit)
           this.loading = false

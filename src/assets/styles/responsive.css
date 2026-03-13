@@ -1120,3 +1120,15 @@
     background-position: 59% 0;
   }
 }
+
+@media (max-width: 480px) {
+    .drawer {
+        max-width: none;
+        width: 100%;
+    }
+    
+    .menu-toggle {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}

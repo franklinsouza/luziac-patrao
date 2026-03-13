@@ -13,9 +13,12 @@
   "dependencies": {
     "@astrojs/alpinejs": "^0.4.9",
     "@phosphor-icons/web": "^2.1.2",
+    "@tailwindcss/vite": "^4.2.1",
     "@types/alpinejs": "^3.13.11",
     "astro": "^5.17.1",
     "fast-xml-parser": "^5.3.6",
-    "minisearch": "^7.2.0"
+    "flexsearch": "^0.8.212",
+    "minisearch": "^7.2.0",
+    "tailwindcss": "^4.2.1"
   }
 }

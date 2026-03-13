@@ -1,27 +1,19 @@
 ---
-import data from '../../public/data/properties-home.json';
-import { getImage } from 'astro:assets';
+import data from "../../public/data/list-home.json";
+import { getImage } from "astro:assets";
 import Image from "astro/components/Image.astro";
-import Layout from '../layouts/Layout.astro';
-import banner from '../assets/images/banner.webp';
+import Layout from "../layouts/Layout.astro";
+import banner from "../assets/images/banner.webp";
 
-import section3 from '../assets/images/section-3.webp';
-import avatar from '../assets/images/test_avatar.png';
-import blog from '../assets/images/blog.jpg';
-import imovel from '../assets/images/imovel-270x220.webp';
-
+import section3 from "../assets/images/section-3.webp";
+import avatar from "../assets/images/test_avatar.png";
+import blog from "../assets/images/blog.jpg";
+import imovel from "../assets/images/imovel-270x220.webp";
 
 const bannerImage = await getImage({ src: banner });
 ---
 
 <Layout>
-  <form>
-    <input type="text" />
-
-    <button>Encontrar Imovel</button>
-  </form>
-
-
   <!-- main-area -->
   <main>
     <!-- slider-area -->
@@ -60,7 +52,67 @@ const bannerImage = await getImage({ src: banner });
     </section>
     <!-- slider-area-end -->
 
+    <section class="pt-30 pb-30">
+      <div class="container">
+        <form class="search-properties" action="/busca/" method="GET">
+          <div class="column">
+            <span class="label">Pretensão</span>
+            <select name="pretensao">
+              <option value="comprar">Comprar</option>
+              <option value="alugar">Alugar</option>
+              <option value="codigo">Código</option>
+            </select>
+          </div>
+          <div class="column">
+            <span class="label">Finalidade</span>
+            <select name="finalidade">
+              <option value="">Todas</option>
+              <option value="residencial">Residencial</option>
+              <option value="comercial">Comercial</option>
+              <option value="industrial">Industrial</option>
+              <option value="corporativa">Corporativa</option>
+            </select>
+          </div>
+          <div class="column">
+            <span class="label">Tipo imóvel</span>
+            <select name="tipo">
+              <option value="">Todos</option>
+              <option value="apartamento">Apartamento</option>
+              <option value="sobrado">Sobrado</option>
+              <option value="casa">Casa</option>
+              <option value="terreno">Terreno</option>
+              <option value="sala">Sala</option>
+              <option value="galpao">Galpão</option>
+              <option value="prédio">Prédio</option>
+              <option value="cobertura">Cobertura</option>
+              <option value="salao">Salão</option>
+              <option value="area">Área</option>
+              <option value="chacara">Chácara</option>
+              <option value="studio">Studio</option>
+              <option value="loja">loja</option>
+              <option value="flat">Flat</option>
+              <option value="kitnet">Kitnet</option>
+              <option value="laje">Laje</option>
+              <option value="sitio">Sítio</option>
+              <option value="apartamento triplex">Apartamento Triplex</option>
+              <option value="andar corporativo">Andar Corporativo</option>
+              <option value="hotel">Hotel</option>
+            </select>
+          </div>
+          <div class="text-column column">
+            <input
+              type="text"
+              name="busca"
+              class=""
+              placeholder="Digite condomínio, região, bairro ou cidade"
+            />
+          </div>
+          <button type="submit" class="search-button"> Buscar </button>
+        </form>
+      </div>
+    </section>
     <!-- gallery-area-->
+
     <section id="services" class="pt-65 pb-35 services-area">
       <div class="container">
         <div class="justify-content-center row">
@@ -72,62 +124,87 @@ const bannerImage = await getImage({ src: banner });
         </div>
 
         <div class="row services-active">
-          {data.map((imovel) => (
-            <div class="col-xl-4">
-              <div class="single-services">
-                <div class="services-thumb">
-                  <a href={`/imoveis/${imovel.slug}`} title={imovel.titulo}>
-                    <img src={imovel.fotoPrincipal} alt={imovel.titulo} />
-                  </a>
-                </div>
-
-                <div class="services-content">
-                  <p class="id">{imovel.id}</p>
-                  <p class="type">{imovel.tipoImovel}</p>
-
-                  <h4>
+          {
+            data.map((imovel) => (
+              <div class="col-xl-4 card-home">
+                <div class="single-services">
+                  <div class="services-thumb">
                     <a href={`/imoveis/${imovel.slug}`} title={imovel.titulo}>
-                      {imovel.titulo}
+                      <img src={imovel.fotoPrincipal} alt={imovel.titulo} />
                     </a>
-                  </h4>
+                  </div>
 
-                  <h3>{imovel.nomeCondominio}</h3>
+                  <div class="services-content">
+                    <p class="id">{imovel.id}</p>
+                    <p class="type">{imovel.tipoImovel}</p>
 
-                  <ul class="prop-list">
-                    <li><span>{imovel.areaUtil}</span> m²</li>
-                    <li><span>{imovel.qtdDormitorios}</span> Quartos</li>
-                    <li><span>{imovel.qtdSuites}</span> Suítes</li>
-                    <li><span>{imovel.qtdBanheiros}</span> Banheiros</li>
-                    <li><span>{imovel.qtdVagas}</span> Vagas</li>
-                  </ul>
+                    <h4>
+                      <a href={`/imoveis/${imovel.slug}`} title={imovel.titulo}>
+                        {imovel.titulo}
+                      </a>
+                    </h4>
 
-                  <div class="price-list">
-                    <div>
-                      <span>Venda</span>
-                      <div class="price">
-                        <p>{imovel.precoVenda}</p>
-                      </div>
-                    </div>
+                    <h3>{imovel.nomeCondominio}</h3>
 
-                    <div>
-                      <span>Locação</span>
-                      <div class="price">
-                        <p>{imovel.precoLocacao}</p>
-                      </div>
+                    <ul class="prop-list">
+                      {imovel.areaUtil && (
+                        <li>
+                          <span>{imovel.areaUtil}</span> m²
+                        </li>
+                      )}
+                      {imovel.qtdDormitorios != 0 && (
+                        <li>
+                          <span>{imovel.qtdDormitorios}</span> Quartos
+                        </li>
+                      )}
+                      {imovel.qtdSuites && (
+                        <li>
+                          <span>{imovel.qtdSuites}</span> Suítes
+                        </li>
+                      )}
+                      {imovel.qtdBanheiros && (
+                        <li>
+                          <span>{imovel.qtdBanheiros}</span> Banheiros
+                        </li>
+                      )}
+                      {imovel.qtdVagas && (
+                        <li>
+                          <span>{imovel.qtdVagas}</span> Vagas
+                        </li>
+                      )}
+                    </ul>
+
+                    <div class="price-list">
+                      {imovel.precoVenda && (
+                        <div>
+                          <span>Venda</span>
+                          <div class="price">
+                            <p>{imovel.precoVenda}</p>
+                          </div>
+                        </div>
+                      )}
+
+                      {imovel.precoLocacao && (
+                        <div>
+                          <span>Locação</span>
+                          <div class="price">
+                            <p>{imovel.precoLocacao}</p>
+                          </div>
+                        </div>
+                      )}
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))
+          }
         </div>
 
         <a
           href="/imoveis"
           class="btn pulse ss-btn"
           data-animation="fadeInRight"
-          data-delay=".8s"
-          >Ver todos os imóveis</a
+          data-delay=".8s">Ver todos os imóveis</a
         >
       </div>
     </section>
@@ -139,21 +216,21 @@ const bannerImage = await getImage({ src: banner });
         <div class="align-items-center row">
           <div class="col-lg-6">
             <div class="p-relative s-about-img">
-              <Image src={section3} alt="Patrão Imóveis"></Image>
+              <Image src={section3} alt="Patrão Imóveis" />
             </div>
           </div>
           <div class="col-lg-6">
             <div class="pl-30 about-content s-about-content">
               <div class="about-title second-atitle">
                 <h2>
-                  <span class="gold-color">Morar bem</span> exige mais do que
-                  escolher um bom imóvel
+                  <span class="gold-color">Morar bem</span> exige mais do que escolher
+                  um bom imóvel
                 </h2>
               </div>
               <p>
                 Quem busca viver bem no ABC não procura apenas metragem. Busca
-                localização estratégica, conforto real, mobilidade, segurança
-                e uma rotina que funcione.
+                localização estratégica, conforto real, mobilidade, segurança e
+                uma rotina que funcione.
               </p>
               <p>
                 O mercado tradicional mostra opções. Nós ajudamos você a fazer
@@ -209,9 +286,8 @@ const bannerImage = await getImage({ src: banner });
               <div class="second-services-content2">
                 <h5>Diferentes estilos de morar, o mesmo critério</h5>
                 <p>
-                  Casas, apartamentos, condomínios e bairros valorizados —
-                  todos avaliados com o mesmo rigor técnico e olhar de longo
-                  prazo.
+                  Casas, apartamentos, condomínios e bairros valorizados — todos
+                  avaliados com o mesmo rigor técnico e olhar de longo prazo.
                 </p>
               </div>
             </div>
@@ -229,8 +305,8 @@ const bannerImage = await getImage({ src: banner });
               <div class="second-services-content2">
                 <h5>Decisões mais inteligentes</h5>
                 <p>
-                  Aqui, cada escolha considera conforto, liquidez, perfil de
-                  uso e patrimônio.
+                  Aqui, cada escolha considera conforto, liquidez, perfil de uso
+                  e patrimônio.
                 </p>
               </div>
             </div>
@@ -242,179 +318,6 @@ const bannerImage = await getImage({ src: banner });
       </div>
     </section>
     <!-- services-area-end -->
-
-    <!-- testimonial-area -->
-    <section
-      id="testimonios"
-      class="pt-25 pb-100 text-center testimonial-area testimonial-p"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-2"></div>
-          <div class="col-lg-8">
-            <div
-              class="mb-40 section-title center-align wow fadeInDown animated"
-              data-animation="fadeInDown animated"
-              data-delay=".2s"
-            >
-              <h2>Depoimentos</h2>
-            </div>
-            <div class="testimonial-active">
-              <div class="single-testimonial">
-                <i class="fa-quote-left fas"></i>
-                <p>
-                  “Nam liber tempor cum soluta nobis eleifend option congue is
-                  nihil imper per tem por legere me doming vulputate velit
-                  esse molestiesoluta nobis eleifend option congue is nihil
-                  imper per tem por legere me doming vulputate velit esse
-                  molestiesoluta nobis eleifend option congue is nihil imper .
-                </p>
-                <div class="text-center testi-author">
-                  <Image src={avatar} alt="Patrão Imóveis"></Image>
-                  <div class="ta-info">
-                    <h6>Mr Jone Dose</h6>
-                    <span>Web Developer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="single-testimonial">
-                <i class="fa-quote-left fas"></i>
-                <p>
-                  “Nam liber tempor cum soluta nobis eleifend option congue is
-                  nihil imper per tem por legere me doming vulputate velit
-                  esse molestiesoluta nobis eleifend option congue is nihil
-                  imper per tem por legere me doming vulputate velit esse
-                  molestiesoluta nobis eleifend option congue is nihil imper .
-                </p>
-                <div class="text-center testi-author">
-                  <Image src={avatar} alt="Patrão Imóveis"></Image>
-                  <div class="ta-info">
-                    <h6>Margie R. Robinson</h6>
-                    <span>Web Developer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="single-testimonial">
-                <i class="fa-quote-left fas"></i>
-                <p>
-                  “Nam liber tempor cum soluta nobis eleifend option congue is
-                  nihil imper per tem por legere me doming vulputate velit
-                  esse molestiesoluta nobis eleifend option congue is nihil
-                  imper per tem por legere me doming vulputate velit esse
-                  molestiesoluta nobis eleifend option congue is nihil imper .
-                </p>
-                <div class="text-center testi-author">
-                  <Image src={avatar} alt="Patrão Imóveis"></Image>
-                  <div class="ta-info">
-                    <h6>Mr Jone Dose</h6>
-                    <span>Web Developer</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2"></div>
-        </div>
-      </div>
-    </section>
-    <!-- testimonial-area-end -->
-
-    <!-- blog-area -->
-    <section id="blog" class="p-relative pt-65 pb-55 blog-area">
-      <div class="container">
-        <div class="justify-content-center row">
-          <div class="col-xl-8 col-lg-10">
-            <div
-              class="mb-80 text-center section-title wow fadeInDown animated"
-              data-animation="fadeInDown animated"
-              data-delay=".2s"
-            >
-              <span>Blog</span>
-              <h2>Acompanhe as novidades</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div
-              class="mb-30 single-post active wow fadeInUp animated"
-              data-animation="fadeInDown animated"
-              data-delay=".2s"
-            >
-              <div class="blog-thumb">
-                <a><Image src={blog} alt="Patrão Imóveis" height="250"></Image></a>
-              </div>
-              <div class="blog-content">
-                <div class="mb-20 b-meta">
-                  <ul>
-                    <li><a href="#">By admin .</a></li>
-                    <li><a href="#">5 Dec 2019 .</a></li>
-                    <li><a href="#" class="corpo">Real este </a></li>
-                  </ul>
-                </div>
-                <h4>
-                  <a>
-                    Monthly Web Development Upto Cost Of JavaScript Ethics</a
-                  >
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div
-              class="mb-30 single-post active wow fadeInUp animated"
-              data-animation="fadeInDown animated"
-              data-delay=".2s"
-            >
-              <div class="blog-thumb">
-                <a><Image src={blog} alt="Patrão Imóveis" height="250"></Image></a>
-              </div>
-              <div class="blog-content">
-                <div class="mb-20 b-meta">
-                  <ul>
-                    <li><a href="#">By admin .</a></li>
-                    <li><a href="#">5 Dec 2019 .</a></li>
-                    <li><a href="#" class="corpo">Real este </a></li>
-                  </ul>
-                </div>
-                <h4>
-                  <a
-                    >Monthly Web Development Upto Cost Of JavaScript Ethics</a
-                  >
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div
-              class="mb-30 single-post active wow fadeInUp animated"
-              data-animation="fadeInDown animated"
-              data-delay=".2s"
-            >
-              <div class="blog-thumb">
-                <a><Image src={blog} alt="Patrão Imóveis" height="250"></Image></a>
-              </div>
-              <div class="blog-content">
-                <div class="mb-20 b-meta">
-                  <ul>
-                    <li><a href="#">By admin .</a></li>
-                    <li><a href="#">5 Dec 2019 .</a></li>
-                    <li><a href="#" class="corpo">Real este </a></li>
-                  </ul>
-                </div>
-                <h4>
-                  <a
-                    >Monthly Web Development Upto Cost Of JavaScript Ethics</a
-                  >
-                </h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a class="btn pulse ss-btn">Ver todas as novidades</a>
-      </div>
-    </section>
-    <!-- blog-area-end -->
 
     <!-- contact-area -->
     <section
@@ -432,8 +335,7 @@ const bannerImage = await getImage({ src: banner });
               <h2>Vamos desenhar juntos sua nova vida em Indaiatuba</h2>
               <h3>Conte para nós o que você busca.</h3>
               <p>
-                Nós cuidamos dos imóveis — e também da sua integração à
-                cidade.
+                Nós cuidamos dos imóveis — e também da sua integração à cidade.
               </p>
             </div>
           </div>
@@ -464,8 +366,7 @@ const bannerImage = await getImage({ src: banner });
                       id="message"
                       cols="30"
                       rows="10"
-                      placeholder="Mensagem"
-                    ></textarea>
+                      placeholder="Mensagem"></textarea>
                   </div>
                   <button class="btn pulse ss-btn">
                     Iniciar atendimento personalizado agora.
@@ -481,9 +382,8 @@ const bannerImage = await getImage({ src: banner });
   </main>
   <!-- main-area-end -->
 
-
   <script type="module">
-    import MiniSearch from 'minisearch';
+    import MiniSearch from "minisearch";
 
     //const res = await fetch('/data/imoveis.json');
     //console.log(res);
@@ -491,39 +391,39 @@ const bannerImage = await getImage({ src: banner });
     const documents = [
       {
         id: 1,
-        title: 'Moby Dick',
-        text: 'Call me Ishmael. Some years ago...',
-        category: 'fiction'
+        title: "Moby Dick",
+        text: "Call me Ishmael. Some years ago...",
+        category: "fiction",
       },
       {
         id: 2,
-        title: 'Zen and the Art of Motorcycle Maintenance',
-        text: 'I can see by my watch...',
-        category: 'fiction'
+        title: "Zen and the Art of Motorcycle Maintenance",
+        text: "I can see by my watch...",
+        category: "fiction",
       },
       {
         id: 3,
-        title: 'Neuromancer',
-        text: 'The sky above the port was...',
-        category: 'fiction'
+        title: "Neuromancer",
+        text: "The sky above the port was...",
+        category: "fiction",
       },
       {
         id: 4,
-        title: 'Zen and the Art of Archery',
-        text: 'At first sight it must seem...',
-        category: 'non-fiction'
-      }
+        title: "Zen and the Art of Archery",
+        text: "At first sight it must seem...",
+        category: "non-fiction",
+      },
     ];
 
     let miniSearch = new MiniSearch({
-      fields: ['title', 'text'], // fields to index for full-text search
-      storeFields: ['title', 'category'] // fields to return with search results
-    })
+      fields: ["title", "text"], // fields to index for full-text search
+      storeFields: ["title", "category"], // fields to return with search results
+    });
 
     // Index all documents
     miniSearch.addAll(documents);
 
-    let results = miniSearch.search('zen art motorcycle');
+    let results = miniSearch.search("zen art motorcycle");
 
     console.log(results);
   </script>

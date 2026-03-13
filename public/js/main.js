@@ -98,16 +98,18 @@
   }
   mainSlider();
 
-  //Single 
+  //Single
   $(".photo-gallery").slick({
-    dots: true,
+    dots: false,
     infinite: false,
     arrows: true,
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    prevArrow: '<button class="slick-prev"><i class="ph ph-caret-left"></i></button>',
-    nextArrow: '<button class="slick-next"><i class="ph ph-caret-right"></i></button>',
+    prevArrow:
+      '<button class="slick-prev"><i class="ph ph-caret-left"></i></button>',
+    nextArrow:
+      '<button class="slick-next"><i class="ph ph-caret-right"></i></button>',
   });
 
   // services-active
@@ -117,6 +119,7 @@
     arrows: false,
     speed: 1000,
     slidesToShow: 3,
+    adaptiveHeight: false,
     slidesToScroll: 1,
 
     responsive: [
@@ -259,13 +262,13 @@
     type: "image",
     gallery: {
       enabled: true,
-      tPrev: 'Anterior',
-      tNext: 'Próxima',
-      tCounter: '%curr% de %total%'
+      tPrev: "Anterior",
+      tNext: "Próxima",
+      tCounter: "%curr% de %total%",
     },
     image: {
-      tError: '<a href="%url%">A imagem</a> não pode ser carregada.'
-    }
+      tError: '<a href="%url%">A imagem</a> não pode ser carregada.',
+    },
   });
 
   /* magnificPopup video view */
@@ -310,23 +313,23 @@
   // });
 
   // isotop
-  $(".grid").imagesLoaded(function () {
-    // init Isotope
-    var $grid = $(".grid").isotope({
-      itemSelector: ".grid-item",
-      percentPosition: true,
-      masonry: {
-        // use outer width of grid-sizer for columnWidth
-        columnWidth: 1,
-      },
-    });
+  // $(".grid").imagesLoaded(function () {
+  //   // init Isotope
+  //   var $grid = $(".grid").isotope({
+  //     itemSelector: ".grid-item",
+  //     percentPosition: true,
+  //     masonry: {
+  //       // use outer width of grid-sizer for columnWidth
+  //       columnWidth: 1,
+  //     },
+  //   });
 
-    // filter items on button click
-    $(".button-group").on("click", "button", function () {
-      var filterValue = $(this).attr("data-filter");
-      $grid.isotope({ filter: filterValue });
-    });
-  });
+  //   // filter items on button click
+  //   $(".button-group").on("click", "button", function () {
+  //     var filterValue = $(this).attr("data-filter");
+  //     $grid.isotope({ filter: filterValue });
+  //   });
+  // });
   // isotop
   ($(".element").each(function () {
     var a = $(this);
@@ -346,3 +349,40 @@
   // WOW active
   new WOW().init();
 })(jQuery);
+
+// Selecionar elementos
+const menuToggle = document.getElementById('menuToggle');
+const closeBtn = document.getElementById('closeBtn');
+const drawer = document.getElementById('drawer');
+const overlay = document.getElementById('overlay');
+
+// Função para abrir o menu
+function openMenu() {
+    drawer.classList.add('open');
+    overlay.classList.add('active');
+}
+
+// Função para fechar o menu
+function closeMenu() {
+    drawer.classList.remove('open');
+    overlay.classList.remove('active');
+}
+
+// Event listeners
+menuToggle && menuToggle.addEventListener('click', openMenu);
+closeBtn && closeBtn.addEventListener('click', closeMenu);
+
+// Fechar menu ao clicar no overlay
+overlay && overlay.addEventListener('click', closeMenu);
+
+// Fechar menu com a tecla ESC
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && drawer.classList.contains('open')) {
+        closeMenu();
+    }
+});
+
+// Prevenir que cliques dentro do drawer fechem o menu
+drawer && drawer.addEventListener('click', (e) => {
+    e.stopPropagation();
+});

@@ -1,6 +1,11 @@
 ---
 import imoveis from '../../../public/data/single.json';
 import Layout from '../../layouts/Layout.astro';
+import { getImage } from 'astro:assets';
+import bgHeaderPath from '../../assets/images/testmonial-bg.webp';
+
+const bgHeader = await getImage({ src: bgHeaderPath });
+
 
 export async function getStaticPaths() {
   return imoveis.map((imovel) => {
@@ -18,6 +23,35 @@ const { imovel } = Astro.props;
 <Layout>
   <!-- main-area -->
   <main>
+    <!-- breadcrumb-area -->
+    <section
+      class="d-flex align-items-center breadcrumb-area"
+      style={`background-image: url(${bgHeader.src});`}
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2">
+            <div class="text-center breadcrumb-wrap">
+              <div class="mb-30 breadcrumb-title">
+                <h2>{imovel.titulo}</h2>
+              </div>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="/">Home</a>
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Imóvel
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- breadcrumb-area-end -->
+
     <!-- choose-area -->
     <section class="p-relative pt-120 pb-120 choose-area">
       <div
@@ -29,11 +63,22 @@ const { imovel } = Astro.props;
         <div class="row">
           <div class="col-xl-6">
             <div class="p-relative mb-30 s-about-img-single photo-gallery">
-              {imovel.fotos.map((foto) => {
-                return  <a class="slide popup-image" href={foto.URLArquivo}>
-                          <img src={foto.URLArquivo} class=""/>
-                        </a>
-              })}
+              <!-- sem foto: http://localhost:4321/imoveis/cobertura-residencial-vila-marlene-sao-bernardo-do-campo-co0607 -->
+              <!-- uma foto (principal): http://localhost:4321/imoveis/terreno-padrao-rudge-ramos-sao-bernardo-do-campo-te0789 -->
+              {
+                Array.isArray(imovel.fotos) 
+                  ? imovel.fotos?.map((foto) => {
+                    return  <a class="slide popup-image" href={foto.URLArquivo}>
+                              <img src={foto.URLArquivo} class=""/>
+                            </a>
+                  })
+                  : <a 
+                      class="slide popup-image"
+                      href={imovel.fotos?.URLArquivo}
+                    >
+                      <img src={imovel.fotos?.URLArquivo} alt="Foto do imóvel"/>
+                    </a>
+              }
             </div>
           </div>
           <div class="col-xl-6">
@@ -52,12 +97,9 @@ const { imovel } = Astro.props;
                 data-animation="fadeInDown animated"
                 data-delay=".2s"
               >
-                <p>
-                  {imovel.observacao}
-                </p>
-
                 <div class="mt-20 mb-20 choose-list">
                   <ul>
+                    { imovel.areaUtil  &&
                     <li>
                       <i class="ph ph-arrows-out"></i>
                       <span>
@@ -65,6 +107,8 @@ const { imovel } = Astro.props;
                         {imovel.areaUtil} m²
                       </span>
                     </li>
+                    }
+                    { imovel.areaTotal  &&
                     <li>
                       <i class="ph ph-arrows-out"></i>
                       <span>
@@ -72,6 +116,8 @@ const { imovel } = Astro.props;
                         {imovel.areaTotal} m²
                       </span>
                     </li>
+                    }
+                    {imovel.qtdDormitorios != 0 &&
                     <li>
                       <i class="ph ph-bed"></i>
                       <span>
@@ -79,6 +125,8 @@ const { imovel } = Astro.props;
                         {imovel.qtdDormitorios}
                       </span>
                     </li>
+                    }
+                    {imovel.qtdSuites &&
                     <li>
                       <i class="ph ph-bathtub"></i>
                       <span>
@@ -86,6 +134,9 @@ const { imovel } = Astro.props;
                         {imovel.qtdSuites}
                       </span>
                     </li>
+                    }
+
+                    {imovel.qtdBanheiros &&
                     <li>
                       <i class="ph ph-shower"></i>
                       <span>
@@ -93,6 +144,9 @@ const { imovel } = Astro.props;
                         {imovel.qtdBanheiros}
                       </span>
                     </li>
+                    }
+
+                    {imovel.qtdVagas &&
                     <li>
                       <i class="ph ph-car"></i>
                       <span>
@@ -100,6 +154,9 @@ const { imovel } = Astro.props;
                         {imovel.qtdVagas}
                       </span>
                     </li>
+                    }
+
+                    {imovel.aceitaPet &&
                     <li>
                       <i class="ph ph-paw-print"></i>
                       <span>
@@ -107,21 +164,30 @@ const { imovel } = Astro.props;
                         {imovel.aceitaPet}
                       </span>
                     </li>
+                    }
                   </ul>
                 </div>
+
                 <div style="display: none;">
                 COnd. R$ {imovel.precoCondominio} <br />
                 IPTU R$ {imovel.precoIptu} <br />
                 </div>
+
                 <ul class="choose-prices">
+                  {  imovel.precoVenda && 
                   <li>
                     <h3 class="title">Venda</h3>
                     <h2>{imovel.precoVenda}</h2>
                   </li>
+                  }
+
+                  { imovel.precoLocacao && 
                   <li>
                     <h3 class="title">Locação</h3>
                     <h2>{imovel.precoLocacao}</h2>
                   </li>
+                  }
+                  
                 </ul>
 
                 <div class="mt-30 choose-btn">
@@ -132,21 +198,28 @@ const { imovel } = Astro.props;
               </div>
             </div>
           </div>
+          <div class="col-xl-12 content">
+            <p>
+              {imovel.obs}
+            </p>
+          </div>
         </div>
       </div>
     </section>
     <!-- choose-area-end -->
 
-    <iframe
-      width="100%"
-      height="500"
-      class="gmap_iframe"
-      frameborder="0"
-      scrolling="no"
-      marginheight="0"
-      marginwidth="0"
-      src={`https://maps.google.com/maps?q=${imovel.latitude},${imovel.longitude}&z=16&output=embed`}
-    ></iframe>
+    {imovel.latitude != 0 &&
+      <iframe 
+        width="100%"
+        height="500"
+        class="gmap_iframe"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        src={`https://maps.google.com/maps?q=${imovel.latitude},${imovel.longitude}&z=16&output=embed`}
+      ></iframe>
+    }
 
     <!-- contact-area -->
     <section
