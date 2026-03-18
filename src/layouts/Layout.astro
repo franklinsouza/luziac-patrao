@@ -18,48 +18,60 @@ const { title, pageClass } = Astro.props;
 
 <!doctype html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-    <Navigation />
-    <slot />
-    <Footer />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Astro Basics</title>
 
+        <!-- Google Tag Manager -->
+        <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MW8G2TKS');
+        </script>
+        <!-- End Google Tag Manager -->
+    </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MW8G2TKS"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
 
+        <Navigation />
+        <slot />
+        <Footer />
 
-
-    <!-- JS here -->
-    <script is:inline src="/js/vendor/modernizr-3.5.0.min.js"></script>
-    <script is:inline src="/js/vendor/jquery-1.12.4.min.js"></script>
-    <script is:inline src="/js/popper.min.js"></script>
-    <script is:inline src="/js/bootstrap.min.js"></script>
-    <script is:inline src="/js/one-page-nav-min.js"></script>
-    <script is:inline src="/js/slick.min.js"></script>
-    <script is:inline src="/js/ajax-form.js"></script>
-    <script is:inline src="/js/paroller.js"></script>
-    <script is:inline src="/js/wow.min.js"></script>
-    <script is:inline src="/js/js_isotope.pkgd.min.js"></script>
-    <script is:inline src="/js/imagesloaded.min.js"></script>
-    <script is:inline src="/js/parallax.min.js"></script>
-    <script is:inline src="/js/jquery.waypoints.min.js"></script>
-    <script is:inline src="/js/jquery.counterup.min.js"></script>
-    <script is:inline src="/js/jquery.magnific-popup.min.js"></script>
-    <script is:inline src="/js/element-in-view.js"></script>
-    <script is:inline src="/js/main.js"></script>
-	</body>
+        <!-- JS here -->
+        <script is:inline src="/js/vendor/modernizr-3.5.0.min.js"></script>
+        <script is:inline src="/js/vendor/jquery-1.12.4.min.js"></script>
+        <script is:inline src="/js/popper.min.js"></script>
+        <script is:inline src="/js/bootstrap.min.js"></script>
+        <script is:inline src="/js/one-page-nav-min.js"></script>
+        <script is:inline src="/js/slick.min.js"></script>
+        <script is:inline src="/js/ajax-form.js"></script>
+        <script is:inline src="/js/paroller.js"></script>
+        <script is:inline src="/js/wow.min.js"></script>
+        <script is:inline src="/js/js_isotope.pkgd.min.js"></script>
+        <script is:inline src="/js/imagesloaded.min.js"></script>
+        <script is:inline src="/js/parallax.min.js"></script>
+        <script is:inline src="/js/jquery.waypoints.min.js"></script>
+        <script is:inline src="/js/jquery.counterup.min.js"></script>
+        <script is:inline src="/js/jquery.magnific-popup.min.js"></script>
+        <script is:inline src="/js/element-in-view.js"></script>
+        <script is:inline src="/js/main.js"></script>
+    </body>
 </html>
 
 <style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
+    html,
+    body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
 </style>

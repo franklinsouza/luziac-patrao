@@ -1,0 +1,9836 @@
+[
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Studio",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Flat",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Studio",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Chácara",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Chácara",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Studio",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Chácara",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Chácara",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Loja",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Studio",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Loja",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Studio",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Studio",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Área",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Loja",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Área",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Studio",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Kitnet",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Loja",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Loja",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Loja",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Studio",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Laje",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Studio",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "corporativa",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Chácara",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sítio",
+    "finalidade": "rural",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Studio",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Chácara",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Área",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Área",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Área",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Área",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Chácara",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Chácara",
+    "finalidade": "rural",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento Triplex",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Chácara",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Flat",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Chácara",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Área",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Loja",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Loja",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Área",
+    "finalidade": "industrial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "industrial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "industrial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Studio",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Chácara",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Andar Corporativo",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Chácara",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Área",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Área",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Hotel",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Área",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Chácara",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Área",
+    "finalidade": "industrial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Salão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Área",
+    "finalidade": "industrial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Área",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sala",
+    "finalidade": "comercial",
+    "venda": 0,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Terreno",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Galpão",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Prédio",
+    "finalidade": "comercial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Área",
+    "finalidade": "industrial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Apartamento",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Cobertura",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Casa",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 1
+  },
+  {
+    "tipoImovel": "Sobrado",
+    "finalidade": "residencial",
+    "venda": 1,
+    "locacao": 0
+  }
+]

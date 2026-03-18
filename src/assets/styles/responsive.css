@@ -394,6 +394,14 @@
   .main-menu ul {
     background-color: #313133;
   }
+
+  .search-properties {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .search-button {
+    width: 100%;
+  }
 }
 
 /* small mobile :320px. */
