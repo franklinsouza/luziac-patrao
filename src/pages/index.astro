@@ -4,16 +4,18 @@ import { getImage } from "astro:assets";
 import Image from "astro/components/Image.astro";
 import Layout from "../layouts/Layout.astro";
 import banner from "../assets/images/banner.webp";
+import Conract from "../components/layout/Contact.astro";
 
 import section3 from "../assets/images/section-3.webp";
 import avatar from "../assets/images/test_avatar.png";
 import blog from "../assets/images/blog.jpg";
 import imovel from "../assets/images/imovel-270x220.webp";
+import Contact from "../components/layout/Contact.astro";
 
 const bannerImage = await getImage({ src: banner });
 ---
 
-<Layout>
+<Layout isHome={true} title="Home">
   <!-- main-area -->
   <main>
     <!-- slider-area -->
@@ -37,10 +39,11 @@ const bannerImage = await getImage({ src: banner });
                 </p>
                 <div class="mt-35 slider-btn">
                   <a
-                    href="#contact"
+                    href="https://wa.me/5511968118843?text=Ol%C3%A1!%20Tudo%20bem%3F%0A%0AVim%20pelo%20site%20e%20gostaria%20de%20ajuda."
                     class="btn ss-btn pulse"
                     data-animation="fadeInRight"
                     data-delay=".8s"
+                    target="_blank"
                     >Quero um atendimento personalizado
                   </a>
                 </div>
@@ -179,7 +182,12 @@ const bannerImage = await getImage({ src: banner });
                         <div>
                           <span>Venda</span>
                           <div class="price">
-                            <p>{imovel.precoVenda}</p>
+                            <p>
+                              {new Intl.NumberFormat('pt-BR', {
+                                style: 'currency',
+                                currency: 'BRL'
+                              }).format(imovel.precoVenda)}
+                            </p>
                           </div>
                         </div>
                       )}
@@ -188,7 +196,12 @@ const bannerImage = await getImage({ src: banner });
                         <div>
                           <span>Locação</span>
                           <div class="price">
-                            <p>{imovel.precoLocacao}</p>
+                            <p>
+                              {new Intl.NumberFormat('pt-BR', {
+                                style: 'currency',
+                                currency: 'BRL'
+                              }).format(imovel.precoLocacao)}
+                            </p>
                           </div>
                         </div>
                       )}
@@ -201,7 +214,7 @@ const bannerImage = await getImage({ src: banner });
         </div>
 
         <a
-          href="/imoveis"
+          href="/busca"
           class="btn pulse ss-btn"
           data-animation="fadeInRight"
           data-delay=".8s">Ver todos os imóveis</a
@@ -236,7 +249,10 @@ const bannerImage = await getImage({ src: banner });
                 O mercado tradicional mostra opções. Nós ajudamos você a fazer
                 escolhas melhores.
               </p>
-              <a href="#contact" class="btn pulse ss-btn"
+              <a
+                href="https://wa.me/5511968118843?text=Ol%C3%A1!%20Tudo%20bem%3F%0A%0AVim%20pelo%20site%20e%20gostaria%20de%20ajuda." 
+                class="btn pulse ss-btn"
+                target="_blank"
                 >Fale com um especialista</a
               >
             </div>
@@ -312,7 +328,7 @@ const bannerImage = await getImage({ src: banner });
             </div>
           </div>
         </div>
-        <a href="#contact" class="btn pulse ss-btn"
+        <a href="https://wa.me/5511968118843?text=Ol%C3%A1!%20Tudo%20bem%3F%0A%0AVim%20pelo%20site%20e%20gostaria%20de%20ajuda." target="_blank" class="btn pulse ss-btn"
           >Converse com a gente e saiba mais</a
         >
       </div>
@@ -320,64 +336,7 @@ const bannerImage = await getImage({ src: banner });
     <!-- services-area-end -->
 
     <!-- contact-area -->
-    <section
-      id="contact"
-      class="p-relative pt-65 pb-70 contact-area contact-bg fix"
-    >
-      <div class="container">
-        <div class="justify-content-center row">
-          <div class="col-xl-8">
-            <div
-              class="mb-40 text-center section-title wow fadeInDown animated"
-              data-animation="fadeInDown animated"
-              data-delay=".2s"
-            >
-              <h2>O cenário perfeito para o seu próximo capítulo</h2>
-              <h3>Conheça imóveis únicos nas <br /> melhores regiões do ABC Paulista.</h3>
-              <p>
-                Nós cuidamos dos imóveis — e também da sua integração à cidade.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 offset-lg-2">
-            <form
-              action="#"
-              class="contact-form wow fadeInUp animated"
-              data-animation="fadeInDown animated"
-              data-delay=".2s"
-            >
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="p-relative mb-40 contact-field c-name">
-                    <input type="text" placeholder="Nome*" />
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                  <div class="p-relative mb-40 contact-field c-email">
-                    <input type="text" placeholder="Email*" />
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                  <div class="p-relative mb-45 contact-field c-message">
-                    <textarea
-                      name="message"
-                      id="message"
-                      cols="30"
-                      rows="10"
-                      placeholder="Mensagem"></textarea>
-                  </div>
-                  <button class="btn pulse ss-btn">
-                    Iniciar atendimento personalizado agora.
-                  </button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- <Contact /> -->
     <!-- contact-area-end -->
   </main>
   <!-- main-area-end -->

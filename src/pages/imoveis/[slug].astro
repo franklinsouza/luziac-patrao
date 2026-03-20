@@ -3,6 +3,7 @@ import imoveis from '../../../public/data/single.json';
 import Layout from '../../layouts/Layout.astro';
 import { getImage } from 'astro:assets';
 import bgHeaderPath from '../../assets/images/testmonial-bg.webp';
+import Contact from "../../components/layout/Contact.astro";
 
 const bgHeader = await getImage({ src: bgHeaderPath });
 
@@ -20,7 +21,7 @@ const { slug } = Astro.params;
 const { imovel } = Astro.props;
 ---
 
-<Layout>
+<Layout title={imovel.titulo}>
   <!-- main-area -->
   <main>
     <!-- breadcrumb-area -->
@@ -53,7 +54,7 @@ const { imovel } = Astro.props;
     <!-- breadcrumb-area-end -->
 
     <!-- choose-area -->
-    <section class="p-relative pt-120 pb-120 choose-area">
+    <section class="p-relative pt-120 pb-120 choose-area" id="imovel">
       <div
         class="chosse-img wow fadeInRight animated"
         data-animation="fadeInRight animated"
@@ -177,14 +178,24 @@ const { imovel } = Astro.props;
                   {  imovel.precoVenda && 
                   <li>
                     <h3 class="title">Venda</h3>
-                    <h2>{imovel.precoVenda}</h2>
+                    <h2>
+                      {new Intl.NumberFormat('pt-BR', {
+                        style: 'currency',
+                        currency: 'BRL'
+                      }).format(imovel.precoVenda)}
+                    </h2>
                   </li>
                   }
 
                   { imovel.precoLocacao && 
                   <li>
                     <h3 class="title">Locação</h3>
-                    <h2>{imovel.precoLocacao}</h2>
+                    <h2>
+                      {new Intl.NumberFormat('pt-BR', {
+                        style: 'currency',
+                        currency: 'BRL'
+                      }).format(imovel.precoLocacao)}
+                    </h2>
                   </li>
                   }
                   
@@ -222,66 +233,7 @@ const { imovel } = Astro.props;
     }
 
     <!-- contact-area -->
-    <section
-      id="contact"
-      class="p-relative pt-120 pb-120 contact-area contact-bg fix"
-    >
-      <div class="container">
-        <div class="justify-content-center row">
-          <div class="col-xl-8">
-            <div
-              class="mb-40 text-center section-title wow fadeInDown animated"
-              data-animation="fadeInDown animated"
-              data-delay=".2s"
-            >
-              <h2>Vamos desenhar juntos sua nova vida em Indaiatuba</h2>
-              <h3>Conte para nós o que você busca.</h3>
-              <p>
-                Nós cuidamos dos imóveis — e também da sua integração à
-                cidade.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 offset-lg-2">
-            <form
-              action="#"
-              class="contact-form wow fadeInUp animated"
-              data-animation="fadeInDown animated"
-              data-delay=".2s"
-            >
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="p-relative mb-40 contact-field c-name">
-                    <input type="text" placeholder="Nome*" />
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                  <div class="p-relative mb-40 contact-field c-email">
-                    <input type="text" placeholder="Email*" />
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                  <div class="p-relative mb-45 contact-field c-message">
-                    <textarea
-                      name="message"
-                      id="message"
-                      cols="30"
-                      rows="10"
-                      placeholder="Mensagem"
-                    ></textarea>
-                  </div>
-                  <button class="btn pulse">
-                    Iniciar atendimento personalizado agora.
-                  </button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- <Contact /> -->
     <!-- contact-area-end -->
   </main>
   <!-- main-area-end -->

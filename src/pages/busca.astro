@@ -7,7 +7,7 @@ import bgHeaderPath from "../assets/images/testmonial-bg.webp";
 const bgHeader = await getImage({ src: bgHeaderPath });
 ---
 
-<Layout>
+<Layout title="Pesquisar">
   <main>
     <!-- Overlay -->
     <div class="overlay" id="overlay"></div>
@@ -482,7 +482,7 @@ const bgHeader = await getImage({ src: bgHeaderPath });
               <div class="mb-30 col-xl-4">
                 <div class="single-services">
                   <div class="services-thumb">
-                    <a :href="`/imoveis/${imovel.slug}`" :title="imovel.titulo">
+                    <a :href="`/imoveis/${imovel.slug}#imovel`" :title="imovel.titulo">
                       <img :src="imovel.fotoPrincipal" :alt="imovel.titulo" />
                     </a>
                   </div>
@@ -493,7 +493,7 @@ const bgHeader = await getImage({ src: bgHeaderPath });
                     <h4>
                       <a
                         x-text="imovel.titulo"
-                        :href="`/imoveis/${imovel.slug}`"
+                        :href="`/imoveis/${imovel.slug}#imovel`"
                         :title="imovel.titulo"></a>
                     </h4>
 
@@ -521,13 +521,13 @@ const bgHeader = await getImage({ src: bgHeaderPath });
                       <div x-show="imovel.precoVenda">
                         <span>Venda</span>
                         <div class="price">
-                          <p x-text="imovel.precoVenda"></p>
+                          <p x-text="new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(imovel.precoVenda)"></p>
                         </div>
                       </div>
                       <div x-show="imovel.precoLocacao">
                         <span>Locação</span>
                         <div class="price">
-                          <p x-text="imovel.precoLocacao"></p>
+                          <p x-text="new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(imovel.precoLocacao)"></p>
                         </div>
                       </div>
                     </div>

@@ -13,6 +13,7 @@ import "../assets/styles/responsive.css";
 import Footer from "../components/layout/Footer.astro";
 import Navigation from "../components/layout/Navigation.astro";
 
+const { isHome } = Astro.props;
 const { title, pageClass } = Astro.props;
 ---
 
@@ -21,10 +22,10 @@ const { title, pageClass } = Astro.props;
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+        <link rel="icon" href="/favicon.png" />
         <meta name="generator" content={Astro.generator} />
-        <title>Astro Basics</title>
+        <title>Patrão Imóveis | {title}</title>
 
         <!-- Google Tag Manager -->
         <script>
@@ -36,7 +37,7 @@ const { title, pageClass } = Astro.props;
         </script>
         <!-- End Google Tag Manager -->
     </head>
-    <body>
+    <body class={isHome ? "home-page" : ""}>
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MW8G2TKS"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
