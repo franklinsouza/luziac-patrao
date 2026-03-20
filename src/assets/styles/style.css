@@ -2875,6 +2875,11 @@ div.single-cta:last-child {
 .s-cta-btn .btn::before {
   content: none;
 }
+.form-status {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
 /* 18. pricing */
 .pricing-box {
   border: 3px solid #f5f8fa;
@@ -3980,6 +3985,7 @@ iframe {
 .footer-widget p {
   color: #fff;
 }
+.footer-widget
 .redux-footer h2 {
   margin-top: 0px;
 }
