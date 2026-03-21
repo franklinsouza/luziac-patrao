@@ -1,20 +1,28 @@
+let lastRun = 0;
+
 export async function GET({ request }) {
   const url = new URL(request.url);
-
   const secret = url.searchParams.get('secret');
 
   if (secret !== process.env.REBUILD_SECRET) {
-    console.log('❌ Tentativa inválida');
     return new Response('Unauthorized', { status: 401 });
   }
 
-  console.log('🟢 Rebuild autorizado');
+  const now = Date.now();
 
-  const res = await fetch(process.env.DEPLOY_HOOK_URL, {
+  // bloqueia execuções em menos de 5 min
+  if (now - lastRun < 1000 * 60 * 5) {
+    console.log('⏳ Ignorado (muito recente)');
+    return new Response('Too soon');
+  }
+
+  lastRun = now;
+
+  console.log('🚀 Disparando deploy');
+
+  await fetch(process.env.DEPLOY_HOOK_URL, {
     method: 'POST'
   });
-
-  console.log('🚀 Status deploy:', res.status);
 
   return new Response('OK');
 }

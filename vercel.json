@@ -1,6 +1,6 @@
 {
   "crons": [{
-    "path": "/api/rebuild",
+    "path": "/api/rebuild?secret=ada324sddsfg4345s12pl",
     "schedule": "0 23 * * *"
   }]
 }
