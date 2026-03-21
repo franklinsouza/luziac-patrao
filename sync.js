@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import { toJson } from "./scripts/parser.js";
 import { generateFullJson } from "./scripts/full-gen-data.js";
 import { generateProperties } from "./scripts/list-gen-data.js";
@@ -14,6 +16,13 @@ async function sync() {
   //const xmlData = fs.readFileSync("./public/data/ingaia.xml", "utf-8");
   const xmlData = await fetch("https://imob.valuegaia.com.br/integra/midia.ashx?midia=GaiaWebServiceImovel&p=eXXvKdmjrNnPs%2FQK3Ca3PANJ%2F02NH5czWBuSoWQmuGNCABHflgBKNd7KKHOXZaMgjj5INYO%2BXnra0P6rOSu5lK7kTLCejtWs").then(r => r.text());
   const json = await toJson(xmlData);
+
+  const filePath = './public/data/full.json';
+  const dir = path.dirname(filePath);
+
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
 
   console.log(`🏠 Total de imóveis:  ${json.length}`);
   console.log("");
