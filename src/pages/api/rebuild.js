@@ -1,20 +1,20 @@
-// src/pages/api/rebuild.js
-let running = false;
-
 export async function GET({ request }) {
-  if (running) {
-    return new Response('Já em execução');
+  const url = new URL(request.url);
+
+  const secret = url.searchParams.get('secret');
+
+  if (secret !== process.env.REBUILD_SECRET) {
+    console.log('❌ Tentativa inválida');
+    return new Response('Unauthorized', { status: 401 });
   }
 
-  running = true;
+  console.log('🟢 Rebuild autorizado');
 
-  try {
-    await fetch('https://api.vercel.com/v1/integrations/deploy/prj_ejZOlSeX0pLkQpqnR42Gk0wfBorY/evXK6jZUqF', {
-      method: 'POST'
-    });
-  } finally {
-    running = false;
-  }
+  const res = await fetch(process.env.DEPLOY_HOOK_URL, {
+    method: 'POST'
+  });
+
+  console.log('🚀 Status deploy:', res.status);
 
   return new Response('OK');
 }
