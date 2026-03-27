@@ -67,18 +67,23 @@ const { imovel } = Astro.props;
               <!-- sem foto: http://localhost:4321/imoveis/cobertura-residencial-vila-marlene-sao-bernardo-do-campo-co0607 -->
               <!-- uma foto (principal): http://localhost:4321/imoveis/terreno-padrao-rudge-ramos-sao-bernardo-do-campo-te0789 -->
               {
-                Array.isArray(imovel.fotos) 
-                  ? imovel.fotos?.map((foto) => {
-                    return  <a class="slide popup-image" href={foto.URLArquivo}>
-                              <img src={foto.URLArquivo} class=""/>
-                            </a>
-                  })
-                  : <a 
-                      class="slide popup-image"
-                      href={imovel.fotos?.URLArquivo}
-                    >
-                      <img src={imovel.fotos?.URLArquivo} alt="Foto do imóvel"/>
-                    </a>
+                Array.isArray(imovel.fotos) && imovel.fotos.length > 0
+                  ? imovel.fotos.map((foto) => (
+                      <a class="slide popup-image" href={foto.URLArquivo}>
+                        <img src={foto.URLArquivo} alt="Foto do imóvel" />
+                      </a>
+                    ))
+                  : imovel.fotos?.URLArquivo
+                    ? (
+                      <a class="slide popup-image" href={imovel.fotos.URLArquivo}>
+                        <img src={imovel.fotos.URLArquivo} alt="Foto do imóvel" />
+                      </a>
+                    )
+                    : (
+                      <a class="slide popup-image" href="/images/fallback.jpg">
+                        <img src="/images/fallback.jpg" alt="Foto do imóvel" />
+                      </a>
+                    )
               }
             </div>
           </div>

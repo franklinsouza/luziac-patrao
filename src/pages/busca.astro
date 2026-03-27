@@ -483,7 +483,10 @@ const bgHeader = await getImage({ src: bgHeaderPath });
                 <div class="single-services">
                   <div class="services-thumb">
                     <a :href="`/imoveis/${imovel.slug}#imovel`" :title="imovel.titulo">
-                      <img :src="imovel.fotoPrincipal" :alt="imovel.titulo" />
+                      <img 
+                        :src="imovel.fotoPrincipal || '/images/fallback.jpg'" 
+                        :alt="imovel.titulo"
+                      />
                     </a>
                   </div>
                   <div class="services-content">
@@ -774,7 +777,7 @@ const bgHeader = await getImage({ src: bgHeaderPath });
           this.showing = this.results.slice(0, this.limit);
           this.fillfilter(paramsValue);
 
-          //console.log("Results: ", this.results);
+          console.log("Results: ", this.results);
           //console.log('Showing: ',this.showing);
         },
 

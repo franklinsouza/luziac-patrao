@@ -43,11 +43,14 @@ const { title, pageClass } = Astro.props;
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
 
+        <div data-yf-sidetab="BAEg53y" data-yf-button-text="Feedback" data-yf-button-color="#f0be17" style="all:unset;"></div>
+
         <Navigation />
         <slot />
         <Footer />
 
         <!-- JS here -->
+        <script is:inline src="//embed.yayforms.link/next/embed.js"></script>
         <script is:inline src="/js/vendor/modernizr-3.5.0.min.js"></script>
         <script is:inline src="/js/vendor/jquery-1.12.4.min.js"></script>
         <script is:inline src="/js/popper.min.js"></script>
