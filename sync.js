@@ -17,6 +17,8 @@ async function sync() {
   const xmlData = await fetch("https://imob.valuegaia.com.br/integra/midia.ashx?midia=GaiaWebServiceImovel&p=eXXvKdmjrNnPs%2FQK3Ca3PANJ%2F02NH5czWBuSoWQmuGNCABHflgBKNd7KKHOXZaMgjj5INYO%2BXnra0P6rOSu5lK7kTLCejtWs").then(r => r.text());
   const json = await toJson(xmlData);
 
+  console.log(json);
+
   const filePath = './public/data/full.json';
   const dir = path.dirname(filePath);
 
